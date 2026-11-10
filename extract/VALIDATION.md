@@ -1,4 +1,4 @@
-# Release candidate validation
+# Validation
 
 Tested on an Apple M1 Mac in a fresh Python 3.11 environment. The three published detector downloads passed the study checksum checks. Five regression tests passed, including interruption and resume, input changes, confidence exactly at .98, the Norwegian alias, unsupported language, missing values, and chronological sampling of 12 frames.
 

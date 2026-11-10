@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mavic-feature-extractor"
-version = "1.0.0rc1"
+version = "1.0.0"
 license = "MIT"
 readme = "README.md"
 description = "Measure visual, acoustic and linguistic properties of videos for MAVIC."

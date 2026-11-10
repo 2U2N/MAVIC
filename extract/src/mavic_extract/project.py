@@ -11,7 +11,7 @@ import pandas as pd
 
 STAGES = ("appearance", "motion", "acoustic", "language", "transcription", "text")
 PARENT = {"transcription": "language", "text": "transcription"}
-VERSION = "mavic-extract-1.0.0rc1"
+VERSION = "mavic-extract-1.0.0"
 
 def digest(path):
     with path.open("rb") as stream:

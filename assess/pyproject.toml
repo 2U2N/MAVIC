@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mavic-assessment"
-version = "1.0.0rc1"
+version = "1.0.0"
 description = "Interpretable assessment of computational video representations with MAVIC"
 readme = "README.md"
 requires-python = ">=3.10,<3.13"

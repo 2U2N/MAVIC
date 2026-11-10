@@ -1,8 +1,9 @@
 cff-version: 1.2.0
 message: "Please cite the MAVIC preprint alongside this software."
 title: "MAVIC: Multimodal Assessment Vocabulary for Interpretability and Coverage"
-version: 1.0.0rc1
+version: 1.0.0
 license: MIT
+repository-code: "https://github.com/2U2N/MAVIC"
 authors:
   - family-names: Wegmann
     given-names: David
