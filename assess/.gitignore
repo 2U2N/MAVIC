@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+.DS_Store
+build/
+dist/
+*.egg-info/
+artifacts/
+paper/generated/
+*.npz
+*.zip
+*.zip.sha256

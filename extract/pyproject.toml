@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mavic-feature-extractor"
+version = "1.0.0rc1"
+license = "MIT"
+readme = "README.md"
+description = "Measure visual, acoustic and linguistic properties of videos for MAVIC."
+requires-python = ">=3.11,<3.12"
+dependencies = [
+ "numpy==1.26.4", "pandas>=2.2,<3", "scipy<1.16", "opencv-contrib-python==4.11.0.86",
+ "mediapipe==0.10.21", "scikit-image<0.26", "PyWavelets", "librosa==0.11.0",
+ "scenedetect==0.6.6", "spacy==3.8.4", "textdescriptives==2.8.4",
+ "openai-whisper==20240930", "torch>=2.4,<2.9", "jupyterlab", "ipykernel"
+]
+[tool.setuptools.package-data]
+mavic_extract = ["data/*.csv"]

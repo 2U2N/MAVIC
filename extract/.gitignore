@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.mavic-project.json
+results/
+.DS_Store
+
+example-videos/
+*.mp4
+*.wav
+*.flac
+*.ogg

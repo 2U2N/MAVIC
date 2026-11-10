@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Strongly correlated MAVIC feature groups retained and removed during probe selection</title>
+<style>
+@page { size: A4; margin: 1.8cm; }
+body { font-family: "Times New Roman", Times, serif; font-size: 10pt; color: #111; }
+.table-title { font-size: 11pt; font-weight: bold; margin: 0 0 8pt 0; }
+table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+th, td { border: 1px solid #555; padding: 5pt 6pt; vertical-align: top; }
+thead th { background: #d9e2f3; text-align: left; font-weight: bold; }
+.section th { background: #eaf0f8; text-align: left; font-weight: bold; }
+.kept { width: 37%; font-weight: bold; }
+.dropped { width: 63%; }
+ul { margin: 0; padding-left: 16pt; }
+li { margin: 0 0 2pt 0; }
+.note { margin-top: 8pt; font-size: 9pt; line-height: 1.2; }
+</style>
+</head>
+<body>
+<p class="table-title">Strongly correlated MAVIC feature groups retained and removed during probe selection</p>
+<table>
+<colgroup><col style="width:37%"><col style="width:63%"></colgroup>
+<thead><tr><th scope="col">Kept feature</th><th scope="col">Dropped features</th></tr></thead>
+<tbody>
+<tr class="section"><th colspan="2" scope="rowgroup">Audio/visual feature selection (n = 18,523)</th></tr>
+<tr><td class="kept">Average Predicted Valence from Pixel Values</td><td class="dropped"><ul><li>Average Predicted Arousal from Pixel Values</li><li>Average Predicted Dominance from Pixel Values</li><li>Mean Wavelet Coefficient of the Value Channel</li><li>Mean of the Average of the HSV-Value Channel</li></ul></td></tr>
+<tr><td class="kept">Mean Confidence of Detecting the Largest Person in the Image</td><td class="dropped"><ul><li>Mean Average Confidence of Detecting All Faces in the Image</li><li>Mean Average Confidence of Detecting All People in the Image</li><li>Mean Confidence of Detecting the Largest Face in the Image</li><li>Mean Ratio of the Total Area of All Person Bounding Boxes to Frame Area</li></ul></td></tr>
+<tr><td class="kept">Mean Contrast for the Hue Channel (GLCM)</td><td class="dropped"><ul><li>Mean Hue Difference Between Outer and Inner Regions, Indicating Color Tone Shift Due to Depth of Field</li></ul></td></tr>
+<tr><td class="kept">Mean Contrast for the Saturation Channel (GLCM)</td><td class="dropped"><ul><li>Mean Saturation Difference Between Outer and Inner Regions (Depth of Field)</li></ul></td></tr>
+<tr><td class="kept">Mean Frequency Centroid</td><td class="dropped"><ul><li>Mean Frequency Bandwidth</li><li>Mean Zero Crossing Rate</li></ul></td></tr>
+<tr><td class="kept">Mean Gray Distribution Entropy</td><td class="dropped"><ul><li>Mean Energy for the Value Channel (GLCM)</li><li>Mean Spatial Entropy</li></ul></td></tr>
+<tr><td class="kept">Mean Laplacian Variance</td><td class="dropped"><ul><li>Mean Brightness Difference Between Outer and Inner Regions (Depth of Field)</li><li>Mean Contrast for the Value Channel (GLCM)</li><li>Median Laplacian Variance</li></ul></td></tr>
+<tr><td class="kept">Mean Motion Magnitude (Optical Flow)</td><td class="dropped"><ul><li>Mean Information Entropy</li></ul></td></tr>
+<tr><td class="kept">Mean Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness</td><td class="dropped"><ul><li>Mean Brightness of the Inner Region</li><li>Mean Wavelet Coefficient of the Value Channel</li><li>Mean of the Average of the HSV-Value Channel</li></ul></td></tr>
+<tr><td class="kept">Mean Total Number of Edge Pixels</td><td class="dropped"><ul><li>Mean Homogeneity for the Value Channel (GLCM)</li></ul></td></tr>
+<tr><td class="kept">Mean Volume Dynamic Range</td><td class="dropped"><ul><li>Mean of the SD of Volume</li></ul></td></tr>
+<tr><td class="kept">Mean of the Average of the HSV-Saturation Channel</td><td class="dropped"><ul><li>Mean Saturation of the Inner Region,</li><li>Mean Wavelet Coefficient of the Saturation Channel</li></ul></td></tr>
+<tr><td class="kept">Mean of the Largest Face Bounding Box to Frame Ratio</td><td class="dropped"><ul><li>Mean Ratio of the Total Area of All Face Bounding Boxes to Frame Area</li></ul></td></tr>
+<tr><td class="kept">Mean of the Largest Hand Bounding Box to Frame Ratio</td><td class="dropped"><ul><li>Mean Ratio of the Total Area of All Hand Bounding Boxes to Frame Area</li><li>SD of the Ratio of the Total Area of All Hand Bounding Boxes to Frame Area</li></ul></td></tr>
+<tr><td class="kept">Mean of the Largest Person Bounding Box to Frame Ratio</td><td class="dropped"><ul><li>Mean Average Confidence of Detecting All People in the Image</li><li>Mean Ratio of the Total Area of All Person Bounding Boxes to Frame Area</li></ul></td></tr>
+<tr><td class="kept">SD of Brightness in the Inner Region</td><td class="dropped"><ul><li>SD of Wavelet Coefficient of the Value Channel</li><li>SD of the Average of the HSV-Value Channel</li></ul></td></tr>
+<tr><td class="kept">SD of Contrast for the Hue Channel (GLCM)</td><td class="dropped"><ul><li>SD of Hue Difference Between Outer and Inner Regions, Showing Variability in Color Tone Due to Depth of Field</li></ul></td></tr>
+<tr><td class="kept">SD of Contrast for the Saturation Channel (GLCM)</td><td class="dropped"><ul><li>SD of Saturation Difference Between Outer and Inner Regions (Depth of Field)</li></ul></td></tr>
+<tr><td class="kept">SD of Frequency Centroid</td><td class="dropped"><ul><li>SD of Frequency Bandwidth</li><li>SD of Zero Crossing Rate</li></ul></td></tr>
+<tr><td class="kept">SD of Gray Distribution Entropy</td><td class="dropped"><ul><li>SD of Energy for the Value Channel (GLCM)</li><li>SD of Spatial Entropy</li></ul></td></tr>
+<tr><td class="kept">SD of Homogeneity for the Saturation Channel (GLCM)</td><td class="dropped"><ul><li>SD of Homogeneity for the Value Channel (GLCM)</li></ul></td></tr>
+<tr><td class="kept">SD of Laplacian Variance</td><td class="dropped"><ul><li>SD of Brightness Difference Between Outer and Inner Regions (Depth of Field)</li><li>SD of Contrast for the Value Channel (GLCM)</li></ul></td></tr>
+<tr><td class="kept">SD of Predicted Valence from Pixel Values</td><td class="dropped"><ul><li>SD of Predicted Arousal from Pixel Values</li><li>SD of Predicted Dominance from Pixel Values</li><li>SD of Wavelet Coefficient of the Value Channel</li><li>SD of the Average of the HSV-Value Channel</li></ul></td></tr>
+<tr><td class="kept">SD of Volume Contour around 4Hz</td><td class="dropped"><ul><li>Mean Volume Contour around 4Hz</li></ul></td></tr>
+<tr><td class="kept">SD of Volume Dynamic Range</td><td class="dropped"><ul><li>SD of the SD of Volume</li></ul></td></tr>
+<tr><td class="kept">SD of the Average of the HSV-Saturation Channel</td><td class="dropped"><ul><li>SD of Saturation in the Inner Region</li><li>SD of Wavelet Coefficient of the Saturation Channel</li></ul></td></tr>
+<tr><td class="kept">SD of the Confidence of Detecting the Largest Face in the Image</td><td class="dropped"><ul><li>SD of the Average Confidence of Detecting All Faces in the Image</li></ul></td></tr>
+<tr><td class="kept">SD of the Confidence of Detecting the Largest Person in the Image</td><td class="dropped"><ul><li>SD of the Average Confidence of Detecting All People in the Image</li></ul></td></tr>
+<tr><td class="kept">SD of the Largest Face Bounding Box to Frame Ratio</td><td class="dropped"><ul><li>SD of the Ratio of the Total Area of All Face Bounding Boxes to Frame Area</li></ul></td></tr>
+<tr><td class="kept">SD of the Largest Hand Bounding Box to Frame Ratio</td><td class="dropped"><ul><li>SD of the Ratio of the Total Area of All Hand Bounding Boxes to Frame Area</li></ul></td></tr>
+<tr><td class="kept">SD of the Largest Person Bounding Box to Frame Ratio</td><td class="dropped"><ul><li>SD of the Ratio of the Total Area of All Person Bounding Boxes to Frame Area</li></ul></td></tr>
+<tr><td class="kept">SD of the Number of Edge Pixels</td><td class="dropped"><ul><li>SD of Homogeneity for the Value Channel (GLCM)</li></ul></td></tr>
+<tr><td class="kept">SD of the Percentage of Orange Pixels</td><td class="dropped"><ul><li>SD of the Percentage of Brown Pixels</li></ul></td></tr>
+<tr><td class="kept">SD of the Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness</td><td class="dropped"><ul><li>SD of Wavelet Coefficient of the Value Channel</li><li>SD of the Average of the HSV-Value Channel</li></ul></td></tr>
+<tr class="section"><th colspan="2" scope="rowgroup">Linguistic additions (n = 10,335)</th></tr>
+<tr><td class="kept">Automated Readability Index</td><td class="dropped"><ul><li>LIX Readability Measure</li><li>Mean Sentence Length</li><li>Median Sentence Length</li></ul></td></tr>
+<tr><td class="kept">Duration in Seconds</td><td class="dropped"><ul><li>Number of Characters</li><li>Number of Sentences</li><li>Number of Stop Words</li><li>Number of Tokens Excluding Punctuation</li><li>Total Number of Tokens</li></ul></td></tr>
+<tr><td class="kept">Fraction of Characters in Duplicate 5-Grams</td><td class="dropped"><ul><li>Fraction of Characters in Duplicate 10-Grams</li><li>Fraction of Characters in Duplicate 6-Grams</li><li>Fraction of Characters in Duplicate 7-Grams</li><li>Fraction of Characters in Duplicate 8-Grams</li><li>Fraction of Characters in Duplicate 9-Grams</li></ul></td></tr>
+<tr><td class="kept">Fraction of Characters in the Top 2-Grams</td><td class="dropped"><ul><li>Fraction of Characters in the Top 3-Grams</li><li>Fraction of Characters in the Top 4-Grams</li></ul></td></tr>
+<tr><td class="kept">Mean Word Length</td><td class="dropped"><ul><li>Coleman–Liau Index</li><li>Mean Token Length</li></ul></td></tr>
+<tr><td class="kept">Number of Unique Tokens</td><td class="dropped"><ul><li>Number of Characters</li><li>Number of Stop Words</li><li>Number of Tokens Excluding Punctuation</li><li>Total Number of Tokens</li></ul></td></tr>
+<tr><td class="kept">Ratio of Words With &gt;0 Alphabetic Chars.</td><td class="dropped"><ul><li>Proportion of Punctuation</li></ul></td></tr>
+</tbody>
+</table>
+<p class="note">Note. Each row lists a retained feature and every rejected feature with which it had an absolute Pearson correlation greater than .80. Audio/visual correlations were evaluated on 18,523 videos; linguistic additions were evaluated on 10,335 videos. The deterministic selection order prioritized duration and variability measures, and the canonical audio/visual vocabulary was retained when linguistic additions were selected. A rejected feature may appear in more than one row when it correlates strongly with multiple retained features.</p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "ordinary": {
+    "audio": "#D55E00",
+    "visual": "#0072B2",
+    "linguistic": "#009E73"
+  },
+  "variability": {
+    "audio": "#F2B134",
+    "visual": "#56B4E9",
+    "linguistic": "#5CCF9A"
+  }
+}

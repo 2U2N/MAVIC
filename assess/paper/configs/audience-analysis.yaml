@@ -1,0 +1,28 @@
+schema_version: 1
+analysis: donor_level_exposure_association
+
+aggregation:
+  unit: donor
+  video_weighting_within_donor: equal
+  minimum_usable_videos_per_cohort: 5
+  full_cohort_eligible_donors: 1008
+  linguistic_cohort_eligible_donors: 910
+
+model:
+  estimator: ordinary_least_squares
+  predictors:
+    age: continuous
+    gender: categorical_treatment_coded
+    education: categorical_treatment_coded
+  score: adjusted_r2
+  interpretation: association_with_observed_exposure
+
+figure:
+  label_count: 5
+  label_modes:
+    audience: largest adjusted R2 values
+    coverage-gap: high audience percentile plus low representation-coverage percentile
+    none: no labels
+  shared_quadrant_guides:
+    x: 0.4
+    y: 0.075

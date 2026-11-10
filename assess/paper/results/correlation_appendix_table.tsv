@@ -1,0 +1,44 @@
+﻿Kept feature	Dropped features
+Audio/visual feature selection (n = 18,523)	
+Average Predicted Valence from Pixel Values	Average Predicted Arousal from Pixel Values; Average Predicted Dominance from Pixel Values; Mean Wavelet Coefficient of the Value Channel; Mean of the Average of the HSV-Value Channel
+Mean Confidence of Detecting the Largest Person in the Image	Mean Average Confidence of Detecting All Faces in the Image; Mean Average Confidence of Detecting All People in the Image; Mean Confidence of Detecting the Largest Face in the Image; Mean Ratio of the Total Area of All Person Bounding Boxes to Frame Area
+Mean Contrast for the Hue Channel (GLCM)	Mean Hue Difference Between Outer and Inner Regions, Indicating Color Tone Shift Due to Depth of Field
+Mean Contrast for the Saturation Channel (GLCM)	Mean Saturation Difference Between Outer and Inner Regions (Depth of Field)
+Mean Frequency Centroid	Mean Frequency Bandwidth; Mean Zero Crossing Rate
+Mean Gray Distribution Entropy	Mean Energy for the Value Channel (GLCM); Mean Spatial Entropy
+Mean Laplacian Variance	Mean Brightness Difference Between Outer and Inner Regions (Depth of Field); Mean Contrast for the Value Channel (GLCM); Median Laplacian Variance
+Mean Motion Magnitude (Optical Flow)	Mean Information Entropy
+Mean Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness	Mean Brightness of the Inner Region; Mean Wavelet Coefficient of the Value Channel; Mean of the Average of the HSV-Value Channel
+Mean Total Number of Edge Pixels	Mean Homogeneity for the Value Channel (GLCM)
+Mean Volume Dynamic Range	Mean of the SD of Volume
+Mean of the Average of the HSV-Saturation Channel	Mean Saturation of the Inner Region,; Mean Wavelet Coefficient of the Saturation Channel
+Mean of the Largest Face Bounding Box to Frame Ratio	Mean Ratio of the Total Area of All Face Bounding Boxes to Frame Area
+Mean of the Largest Hand Bounding Box to Frame Ratio	Mean Ratio of the Total Area of All Hand Bounding Boxes to Frame Area; SD of the Ratio of the Total Area of All Hand Bounding Boxes to Frame Area
+Mean of the Largest Person Bounding Box to Frame Ratio	Mean Average Confidence of Detecting All People in the Image; Mean Ratio of the Total Area of All Person Bounding Boxes to Frame Area
+SD of Brightness in the Inner Region	SD of Wavelet Coefficient of the Value Channel; SD of the Average of the HSV-Value Channel
+SD of Contrast for the Hue Channel (GLCM)	SD of Hue Difference Between Outer and Inner Regions, Showing Variability in Color Tone Due to Depth of Field
+SD of Contrast for the Saturation Channel (GLCM)	SD of Saturation Difference Between Outer and Inner Regions (Depth of Field)
+SD of Frequency Centroid	SD of Frequency Bandwidth; SD of Zero Crossing Rate
+SD of Gray Distribution Entropy	SD of Energy for the Value Channel (GLCM); SD of Spatial Entropy
+SD of Homogeneity for the Saturation Channel (GLCM)	SD of Homogeneity for the Value Channel (GLCM)
+SD of Laplacian Variance	SD of Brightness Difference Between Outer and Inner Regions (Depth of Field); SD of Contrast for the Value Channel (GLCM)
+SD of Predicted Valence from Pixel Values	SD of Predicted Arousal from Pixel Values; SD of Predicted Dominance from Pixel Values; SD of Wavelet Coefficient of the Value Channel; SD of the Average of the HSV-Value Channel
+SD of Volume Contour around 4Hz	Mean Volume Contour around 4Hz
+SD of Volume Dynamic Range	SD of the SD of Volume
+SD of the Average of the HSV-Saturation Channel	SD of Saturation in the Inner Region; SD of Wavelet Coefficient of the Saturation Channel
+SD of the Confidence of Detecting the Largest Face in the Image	SD of the Average Confidence of Detecting All Faces in the Image
+SD of the Confidence of Detecting the Largest Person in the Image	SD of the Average Confidence of Detecting All People in the Image
+SD of the Largest Face Bounding Box to Frame Ratio	SD of the Ratio of the Total Area of All Face Bounding Boxes to Frame Area
+SD of the Largest Hand Bounding Box to Frame Ratio	SD of the Ratio of the Total Area of All Hand Bounding Boxes to Frame Area
+SD of the Largest Person Bounding Box to Frame Ratio	SD of the Ratio of the Total Area of All Person Bounding Boxes to Frame Area
+SD of the Number of Edge Pixels	SD of Homogeneity for the Value Channel (GLCM)
+SD of the Percentage of Orange Pixels	SD of the Percentage of Brown Pixels
+SD of the Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness	SD of Wavelet Coefficient of the Value Channel; SD of the Average of the HSV-Value Channel
+Linguistic additions (n = 10,335)	
+Automated Readability Index	LIX Readability Measure; Mean Sentence Length; Median Sentence Length
+Duration in Seconds	Number of Characters; Number of Sentences; Number of Stop Words; Number of Tokens Excluding Punctuation; Total Number of Tokens
+Fraction of Characters in Duplicate 5-Grams	Fraction of Characters in Duplicate 10-Grams; Fraction of Characters in Duplicate 6-Grams; Fraction of Characters in Duplicate 7-Grams; Fraction of Characters in Duplicate 8-Grams; Fraction of Characters in Duplicate 9-Grams
+Fraction of Characters in the Top 2-Grams	Fraction of Characters in the Top 3-Grams; Fraction of Characters in the Top 4-Grams
+Mean Word Length	Coleman–Liau Index; Mean Token Length
+Number of Unique Tokens	Number of Characters; Number of Stop Words; Number of Tokens Excluding Punctuation; Total Number of Tokens
+Ratio of Words With >0 Alphabetic Chars.	Proportion of Punctuation

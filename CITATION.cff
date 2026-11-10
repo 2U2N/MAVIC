@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite the MAVIC preprint alongside this software."
+title: "MAVIC: Multimodal Assessment Vocabulary for Interpretability and Coverage"
+version: 1.0.0rc1
+license: MIT
+authors:
+  - family-names: Wegmann
+    given-names: David
+    orcid: "https://orcid.org/0000-0002-7372-9850"
+  - family-names: Olesen
+    given-names: Marcus
+  - family-names: Nielbo
+    given-names: Kristoffer Laigaard
+    orcid: "https://orcid.org/0000-0002-5116-5070"
+  - family-names: Bechmann
+    given-names: Anja
+    orcid: "https://orcid.org/0000-0002-5588-5155"
+preferred-citation:
+  type: article
+  title: "Probing Computational Video Representations with MAVIC: A Multimodal Assessment Vocabulary for Interpretability and Coverage"
+  authors:
+    - family-names: Wegmann
+      given-names: David
+    - family-names: Olesen
+      given-names: Marcus
+    - family-names: Nielbo
+      given-names: Kristoffer Laigaard
+    - family-names: Bechmann
+      given-names: Anja
+  journal: "SocArXiv"
+  url: "https://osf.io/preprints/socarxiv/nvzhy"

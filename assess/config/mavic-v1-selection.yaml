@@ -1,0 +1,20 @@
+schema_version: 1
+duration_column: duration_seconds
+minimum_duration_seconds: 30
+minimum_distinct_values: 10
+correlation_threshold: 0.8
+
+exclude_features:
+  - view_count
+  - comment_count
+  - like_count
+  - subscriber_count
+  - upload_date
+  - "symbol_to_word_ratio_#"
+  - proportion_ellipsis
+  - proportion_bullet_points
+  - contains_lorem ipsum
+  - nb_keyframes
+
+exclude_name_contains:
+  - mfccs

@@ -1,0 +1,23 @@
+selection_stage,n_rows,kept_feature,kept_feature_display,dropped_feature,dropped_feature_display,absolute_correlation
+linguistic_additions,10335,duration_seconds,Duration in Seconds,n_stop_words,Number of Stop Words,0.9248852469638429
+linguistic_additions,10335,duration_seconds,Duration in Seconds,doc_length,Total Number of Tokens,0.9339573242522857
+linguistic_additions,10335,duration_seconds,Duration in Seconds,n_tokens,Number of Tokens Excluding Punctuation,0.9363536120347666
+linguistic_additions,10335,duration_seconds,Duration in Seconds,n_characters,Number of Characters,0.9363659264399153
+linguistic_additions,10335,duration_seconds,Duration in Seconds,n_sentences,Number of Sentences,0.8292136177747101
+linguistic_additions,10335,alpha_ratio,Ratio of Words With >0 Alphabetic Chars.,pos_prop_PUNCT,Proportion of Punctuation,0.976200313926441
+linguistic_additions,10335,mean_word_length,Mean Word Length,coleman_liau_index,Coleman–Liau Index,0.9437932175097643
+linguistic_additions,10335,mean_word_length,Mean Word Length,token_length_mean,Mean Token Length,0.9076087078812533
+linguistic_additions,10335,duplicate_ngram_chr_fraction_5,Fraction of Characters in Duplicate 5-Grams,duplicate_ngram_chr_fraction_6,Fraction of Characters in Duplicate 6-Grams,0.9820718757263772
+linguistic_additions,10335,duplicate_ngram_chr_fraction_5,Fraction of Characters in Duplicate 5-Grams,duplicate_ngram_chr_fraction_7,Fraction of Characters in Duplicate 7-Grams,0.9606268745979242
+linguistic_additions,10335,duplicate_ngram_chr_fraction_5,Fraction of Characters in Duplicate 5-Grams,duplicate_ngram_chr_fraction_8,Fraction of Characters in Duplicate 8-Grams,0.9412646564959646
+linguistic_additions,10335,duplicate_ngram_chr_fraction_5,Fraction of Characters in Duplicate 5-Grams,duplicate_ngram_chr_fraction_9,Fraction of Characters in Duplicate 9-Grams,0.9264546610865417
+linguistic_additions,10335,duplicate_ngram_chr_fraction_5,Fraction of Characters in Duplicate 5-Grams,duplicate_ngram_chr_fraction_10,Fraction of Characters in Duplicate 10-Grams,0.9073921302757875
+linguistic_additions,10335,top_ngram_chr_fraction_2,Fraction of Characters in the Top 2-Grams,top_ngram_chr_fraction_3,Fraction of Characters in the Top 3-Grams,0.9382304743664984
+linguistic_additions,10335,top_ngram_chr_fraction_2,Fraction of Characters in the Top 2-Grams,top_ngram_chr_fraction_4,Fraction of Characters in the Top 4-Grams,0.9242743627477981
+linguistic_additions,10335,automated_readability_index,Automated Readability Index,lix,LIX Readability Measure,0.9968712784204332
+linguistic_additions,10335,automated_readability_index,Automated Readability Index,sentence_length_mean,Mean Sentence Length,0.9922770349360581
+linguistic_additions,10335,automated_readability_index,Automated Readability Index,sentence_length_median,Median Sentence Length,0.9572976858997331
+linguistic_additions,10335,n_unique_tokens,Number of Unique Tokens,n_stop_words,Number of Stop Words,0.8289642057422301
+linguistic_additions,10335,n_unique_tokens,Number of Unique Tokens,doc_length,Total Number of Tokens,0.8463098919400623
+linguistic_additions,10335,n_unique_tokens,Number of Unique Tokens,n_tokens,Number of Tokens Excluding Punctuation,0.8474717116775056
+linguistic_additions,10335,n_unique_tokens,Number of Unique Tokens,n_characters,Number of Characters,0.8549556608525541

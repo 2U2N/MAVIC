@@ -1,0 +1,15 @@
+random_seed: 42
+outer_folds: 5
+shuffle: true
+standardize_embeddings_within_training_fold: true
+ridge_alphas:
+  - 0.1
+  - 1
+  - 10
+  - 100
+  - 1000
+  - 10000
+  - 100000
+score: out_of_fold_r2
+preserve_negative_r2: true
+linguistic_folds_inherit_full_cohort_assignment: true

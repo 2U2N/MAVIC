@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "palette_file": "../../src/mavic/data/palette.json",
+  "coverage": {
+    "detailed_layout": "separate",
+    "sort_by": "mean",
+    "mixed_canvas_inches": [8.27, 11.69],
+    "label_wrap_width": 48,
+    "png_dpi": 300
+  },
+  "coverage_overview": {
+    "canvas_inches": [7.2, 3.1],
+    "panels": ["OpenCLIP", "LCO", "F2LLM"],
+    "independent_panel_ranking": true,
+    "png_dpi": 300
+  },
+  "audience_relevance": {
+    "article_canvas_inches": [7.2, 9.0],
+    "wide_canvas_inches": [21.0, 7.5],
+    "label_count": 5,
+    "quadrant_guide_x": 0.4,
+    "quadrant_guide_y": 0.075,
+    "png_dpi": 300
+  }
+}

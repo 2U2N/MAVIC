@@ -1,0 +1,42 @@
+schema_version: 1
+vocabulary_version: mavic-v1
+
+cohorts:
+  full:
+    purpose: Select the canonical audio/visual probes.
+    observed_rows: 18523
+  linguistic:
+    purpose: Add linguistic probes while reusing the canonical audio/visual set.
+    observed_rows: 10335
+
+row_filter:
+  duration_feature: duration_seconds
+  minimum_seconds_exclusive: 30
+
+feature_quality:
+  require_complete_column: true
+  require_finite_column: true
+  minimum_distinct_values: 10
+  include_mfcc: false
+
+correlation_selection:
+  statistic: absolute_pearson_r
+  reject_above: 0.8
+  sd_over_matching_volatility: true
+  deterministic_priority:
+    - duration_seconds
+    - variability_features
+    - ordinary_features
+  variability_patterns:
+    - "std_*"
+    - "sd_*"
+    - "*_std"
+    - "*_sd"
+  linguistic_run_reuses_canonical_audio_visual_features: true
+
+output:
+  authoritative_probe_count: 133
+  modality_counts:
+    visual: 86
+    audio: 13
+    linguistic: 34

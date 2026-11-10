@@ -1,0 +1,134 @@
+feature,display_name,feature_type,is_variability,source_cohort,vocabulary_version
+alpha_ratio,Ratio of Words With >0 Alphabetic Chars.,linguistic,False,linguistic,mavic-v1
+automated_readability_index,Automated Readability Index,linguistic,False,linguistic,mavic-v1
+avg_inner_value_sd,SD of Brightness in the Inner Region,visual,True,full,mavic-v1
+avg_shots_per_min,Average Number of Shots per Minute,visual,False,full,mavic-v1
+black%_mean,Mean Percentage of Black Pixels,visual,False,full,mavic-v1
+black%_sd,SD of the Percentage of Black Pixels,visual,True,full,mavic-v1
+blue%_mean,Mean Percentage of Blue Pixels,visual,False,full,mavic-v1
+blue%_sd,SD of the Percentage of Blue Pixels,visual,True,full,mavic-v1
+blurriness_mean,Mean Laplacian Variance,visual,False,full,mavic-v1
+blurriness_sd,SD of Laplacian Variance,visual,True,full,mavic-v1
+brown%_mean,Mean Percentage of Brown Pixels,visual,False,full,mavic-v1
+clarity_mean,Mean Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,visual,False,full,mavic-v1
+clarity_sd,SD of the Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,visual,True,full,mavic-v1
+color_warmth_mean,Ratio of Warm Pixels (Hue Between 30 and 110) to Overall Pixels,visual,False,full,mavic-v1
+color_warmth_sd,SD of Warm Pixels Ratio to Overall Pixels,visual,True,full,mavic-v1
+colorfulness_mean,Mean Colorfulness,visual,False,full,mavic-v1
+colorfulness_sd,SD of Colorfulness,visual,True,full,mavic-v1
+dependency_distance_mean,Mean of Dependency Distance on the Sentence Level,linguistic,False,linguistic,mavic-v1
+dependency_distance_std,SD of Dependency Distance on the Sentence Level,linguistic,True,linguistic,mavic-v1
+duplicate_ngram_chr_fraction_5,Fraction of Characters in Duplicate 5-Grams,linguistic,False,linguistic,mavic-v1
+duration_seconds,Duration in Seconds,visual,False,full,mavic-v1
+edge_points_mean,Mean Total Number of Edge Pixels,visual,False,full,mavic-v1
+edge_points_sd,SD of the Number of Edge Pixels,visual,True,full,mavic-v1
+gray%_mean,Mean Percentage of Gray Pixels,visual,False,full,mavic-v1
+gray%_sd,SD of the Percentage of Gray Pixels,visual,True,full,mavic-v1
+gray_distribution_entropy_mean,Mean Gray Distribution Entropy,visual,False,full,mavic-v1
+gray_distribution_entropy_sd,SD of Gray Distribution Entropy,visual,True,full,mavic-v1
+green%_mean,Mean Percentage of Green Pixels,visual,False,full,mavic-v1
+green%_sd,SD of the Percentage of Green Pixels,visual,True,full,mavic-v1
+hue_avg_wavelet_mean,Mean Wavelet Coefficient of the Hue Channel,visual,False,full,mavic-v1
+hue_avg_wavelet_sd,SD of Wavelet Coefficient of the Hue Channel,visual,True,full,mavic-v1
+hue_contrast_mean,Mean Contrast for the Hue Channel (GLCM),visual,False,full,mavic-v1
+hue_contrast_sd,SD of Contrast for the Hue Channel (GLCM),visual,True,full,mavic-v1
+hue_correlation_mean,Mean Correlation for the Hue Channel (GLCM),visual,False,full,mavic-v1
+hue_correlation_sd,SD of Correlation for the Hue Channel (GLCM),visual,True,full,mavic-v1
+hue_energy_mean,Mean Energy for the Hue Channel (GLCM),visual,False,full,mavic-v1
+hue_energy_sd,SD of Energy for the Hue Channel (GLCM),visual,True,full,mavic-v1
+hue_homogeneity_mean,Mean Homogeneity for the Hue Channel (GLCM),visual,False,full,mavic-v1
+hue_homogeneity_sd,SD of Homogeneity for the Hue Channel (GLCM),visual,True,full,mavic-v1
+info_entropy_std,SD of Information Entropy,visual,True,full,mavic-v1
+lang_confidence,Confidence in Language Detection,linguistic,False,linguistic,mavic-v1
+largest_bb_faces_mean,Mean of the Largest Face Bounding Box to Frame Ratio,visual,False,full,mavic-v1
+largest_bb_faces_sd,SD of the Largest Face Bounding Box to Frame Ratio,visual,True,full,mavic-v1
+largest_bb_hands_mean,Mean of the Largest Hand Bounding Box to Frame Ratio,visual,False,full,mavic-v1
+largest_bb_hands_sd,SD of the Largest Hand Bounding Box to Frame Ratio,visual,True,full,mavic-v1
+largest_bb_people_mean,Mean of the Largest Person Bounding Box to Frame Ratio,visual,False,full,mavic-v1
+largest_bb_people_sd,SD of the Largest Person Bounding Box to Frame Ratio,visual,True,full,mavic-v1
+largest_confidence_faces_sd,SD of the Confidence of Detecting the Largest Face in the Image,visual,True,full,mavic-v1
+largest_confidence_people_mean,Mean Confidence of Detecting the Largest Person in the Image,visual,False,full,mavic-v1
+largest_confidence_people_sd,SD of the Confidence of Detecting the Largest Person in the Image,visual,True,full,mavic-v1
+mean_avg_saturation,Mean of the Average of the HSV-Saturation Channel,visual,False,full,mavic-v1
+mean_circular_var_hue,Mean Circular Variance of Hue,visual,False,full,mavic-v1
+mean_energy_ratio_0_630,Mean Energy Ratio Between 0 and 630Hz,audio,False,full,mavic-v1
+mean_energy_ratio_1720_4400,Mean Energy Ratio Between 1720 and 4400Hz,audio,False,full,mavic-v1
+mean_energy_ratio_630_1720,Mean Energy Ratio Between 630 and 1720Hz,audio,False,full,mavic-v1
+mean_freq_centroid,Mean Frequency Centroid,audio,False,full,mavic-v1
+mean_non_silence_ratio,Mean Non-Silence Ratio,audio,False,full,mavic-v1
+mean_sd_saturation,Mean of the SD of the HSV-Saturation Channel,visual,False,full,mavic-v1
+mean_sd_value,Mean of the SD of the HSV-Value Channel,visual,False,full,mavic-v1
+mean_volume_dynamic_range,Mean Volume Dynamic Range,audio,False,full,mavic-v1
+mean_word_length,Mean Word Length,linguistic,False,linguistic,mavic-v1
+motion_direction_mean,Mean Motion Direction (Optical Flow),visual,False,full,mavic-v1
+motion_direction_std,SD of Motion Direction (Optical Flow),visual,True,full,mavic-v1
+motion_magnitude_mean,Mean Motion Magnitude (Optical Flow),visual,False,full,mavic-v1
+motion_magnitude_std,SD of Motion Magnitude (Optical Flow),visual,True,full,mavic-v1
+n_unique_tokens,Number of Unique Tokens,linguistic,False,linguistic,mavic-v1
+nb_faces_mean,Mean Number of Faces Detected in the Image,visual,False,full,mavic-v1
+nb_faces_sd,SD of the Number of Faces Detected in the Image,visual,True,full,mavic-v1
+nb_hands_mean,Mean Number of Hands Detected,visual,False,full,mavic-v1
+nb_hands_sd,SD of the Number of Hands Detected,visual,True,full,mavic-v1
+nb_people_mean,Mean Number of People Detected in the Image,visual,False,full,mavic-v1
+nb_people_sd,SD of the Number of People Detected in the Image,visual,True,full,mavic-v1
+oov_ratio,Ratio of Out-of-Vocabulary Words,linguistic,False,linguistic,mavic-v1
+orange%_mean,Mean Percentage of Orange Pixels,visual,False,full,mavic-v1
+orange%_sd,SD of the Percentage of Orange Pixels,visual,True,full,mavic-v1
+pink%_mean,Mean Percentage of Pink Pixels,visual,False,full,mavic-v1
+pink%_sd,SD of the Percentage of Pink Pixels,visual,True,full,mavic-v1
+pos_prop_ADJ,Proportion of Adjectives,linguistic,False,linguistic,mavic-v1
+pos_prop_ADP,Proportion of Adpositions,linguistic,False,linguistic,mavic-v1
+pos_prop_ADV,Proportion of Adverbs,linguistic,False,linguistic,mavic-v1
+pos_prop_AUX,Proportion of Auxiliaries,linguistic,False,linguistic,mavic-v1
+pos_prop_CCONJ,Proportion of Coordinating Conjunctions,linguistic,False,linguistic,mavic-v1
+pos_prop_DET,Proportion of Determiners,linguistic,False,linguistic,mavic-v1
+pos_prop_INTJ,Proportion of Interjections,linguistic,False,linguistic,mavic-v1
+pos_prop_NOUN,Proportion of Nouns,linguistic,False,linguistic,mavic-v1
+pos_prop_NUM,Proportion of Numerals,linguistic,False,linguistic,mavic-v1
+pos_prop_PART,Proportion of Particles,linguistic,False,linguistic,mavic-v1
+pos_prop_PRON,Proportion of Pronouns,linguistic,False,linguistic,mavic-v1
+pos_prop_PROPN,Proportion of Proper Nouns,linguistic,False,linguistic,mavic-v1
+pos_prop_SCONJ,Proportion of Subordinating Conjunctions,linguistic,False,linguistic,mavic-v1
+pos_prop_SYM,Proportion of Symbols,linguistic,False,linguistic,mavic-v1
+pos_prop_VERB,Proportion of Verbs,linguistic,False,linguistic,mavic-v1
+pos_prop_X,Proportion of Words That Cannot Be Assigned to a Real Part-of-Speech Category,linguistic,False,linguistic,mavic-v1
+prop_adjacent_dependency_relation_mean,Mean Proportion of Adjacent Dependency Relations on the Sentence Level,linguistic,False,linguistic,mavic-v1
+prop_adjacent_dependency_relation_std,SD of the Proportion of Adjacent Dependency Relations on the Sentence Level,linguistic,True,linguistic,mavic-v1
+proportion_unique_tokens,Proportion of Unique Tokens,linguistic,False,linguistic,mavic-v1
+purple%_mean,Mean Percentage of Purple Pixels,visual,False,full,mavic-v1
+purple%_sd,SD of the Percentage of Purple Pixels,visual,True,full,mavic-v1
+red%_mean,Mean Percentage of Red Pixels,visual,False,full,mavic-v1
+red%_sd,SD of the Percentage of Red Pixels,visual,True,full,mavic-v1
+rix,RIX Readability Measure,linguistic,False,linguistic,mavic-v1
+saturation_contrast_mean,Mean Contrast for the Saturation Channel (GLCM),visual,False,full,mavic-v1
+saturation_contrast_sd,SD of Contrast for the Saturation Channel (GLCM),visual,True,full,mavic-v1
+saturation_correlation_mean,Mean Correlation for the Saturation Channel (GLCM),visual,False,full,mavic-v1
+saturation_correlation_sd,SD of Correlation for the Saturation Channel (GLCM),visual,True,full,mavic-v1
+saturation_energy_mean,Mean Energy for the Saturation Channel (GLCM),visual,False,full,mavic-v1
+saturation_energy_sd,SD of Energy for the Saturation Channel (GLCM),visual,True,full,mavic-v1
+saturation_homogeneity_mean,Mean Homogeneity for the Saturation Channel (GLCM),visual,False,full,mavic-v1
+saturation_homogeneity_sd,SD of Homogeneity for the Saturation Channel (GLCM),visual,True,full,mavic-v1
+sd_avg_saturation,SD of the Average of the HSV-Saturation Channel,visual,True,full,mavic-v1
+sd_circular_var_hue,SD of Circular Variance of Hue,visual,True,full,mavic-v1
+sd_sd_saturation,SD of the SD of the HSV-Saturation Channel,visual,True,full,mavic-v1
+sd_sd_value,SD of the SD of the HSV-Value Channel,visual,True,full,mavic-v1
+sentence_length_std,SD of Sentence Length,linguistic,True,linguistic,mavic-v1
+std_energy_ratio_0_630,SD of Energy Ratio Between 0 and 630Hz,audio,True,full,mavic-v1
+std_energy_ratio_1720_4400,SD of Energy Ratio Between 1720 and 4400Hz,audio,True,full,mavic-v1
+std_energy_ratio_630_1720,SD of Energy Ratio Between 630 and 1720Hz,audio,True,full,mavic-v1
+std_freq_centroid,SD of Frequency Centroid,audio,True,full,mavic-v1
+std_non_silence_ratio,SD of Non-Silence Ratio,audio,True,full,mavic-v1
+std_vol_contour_4hz,SD of Volume Contour around 4Hz,audio,True,full,mavic-v1
+std_volume_dynamic_range,SD of Volume Dynamic Range,audio,True,full,mavic-v1
+token_length_median,Median Token Length,linguistic,False,linguistic,mavic-v1
+token_length_std,SD of Token Length,linguistic,True,linguistic,mavic-v1
+top_ngram_chr_fraction_2,Fraction of Characters in the Top 2-Grams,linguistic,False,linguistic,mavic-v1
+valence_mean,Average Predicted Valence from Pixel Values,visual,False,full,mavic-v1
+valence_sd,SD of Predicted Valence from Pixel Values,visual,True,full,mavic-v1
+value_correlation_mean,Mean Correlation for the Value Channel (GLCM),visual,False,full,mavic-v1
+value_correlation_sd,SD of Correlation for the Value Channel (GLCM),visual,True,full,mavic-v1
+white%_mean,Mean Percentage of White Pixels,visual,False,full,mavic-v1
+white%_sd,SD of the Percentage of White Pixels,visual,True,full,mavic-v1
+words_per_minute,Average Number of Words Spoken per Minute,linguistic,False,linguistic,mavic-v1
+yellow%_mean,Mean Percentage of Yellow Pixels,visual,False,full,mavic-v1
+yellow%_sd,SD of the Percentage of Yellow Pixels,visual,True,full,mavic-v1

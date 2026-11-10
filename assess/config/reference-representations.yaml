@@ -1,0 +1,34 @@
+openclip:
+  model: ViT-B-32-quickgelu
+  pretrained: openai
+  sampled_frames: 16
+  frame_sampling: temporal_bin_centers
+  duplicate_cosine_threshold: 0.97
+  pooling: mean
+  dimensions: 512
+  precision: bfloat16
+  normalization: l2
+lco:
+  model: LCO-Embedding/LCO-Embedding-Omni-7B
+  revision: 108f6f1a5de3b2eedd1d1c7b7005aaca6ed3802c
+  window_seconds: 16
+  long_video_window: centered
+  frames_per_second: 2
+  maximum_frames: 32
+  prompt: |-
+
+    Summarize the above video in one word:
+  pooling: last_token
+  dimensions: 3584
+  precision: bfloat16
+  normalization: l2
+f2llm:
+  model: codefuse-ai/F2LLM-v2-4B
+  revision: 2c0231f93661c5260cb71efb2097a3f7210b5996
+  instruction: "Instruct: Represent the video metadata by its primary one-word topic.\nQuery:\n"
+  field_template: "Title: {title}\nDescription:\n{description}\nCategories: {categories}\nTags: {tags}"
+  maximum_tokens: 4096
+  pooling: last_token
+  dimensions: 2560
+  precision: bfloat16
+  normalization: l2

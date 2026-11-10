@@ -1,0 +1,59 @@
+schema_version: 1
+
+openclip:
+  command: mavic-openclip-embed
+  implementation: open_clip
+  architecture: ViT-B-32-quickgelu
+  pretrained_weights: openai
+  input: video_frames
+  temporal_sampling: 16 equal-duration bin-center frames
+  duplicate_filter:
+    method: greedy_cosine
+    threshold: 0.97
+  pooling: mean_over_retained_frames
+  embedding_dimension: 512
+  precision: bf16
+  normalization: l2
+
+lco:
+  command: mavic-lco-embed
+  model_id: LCO-Embedding/LCO-Embedding-Omni-7B
+  revision: 108f6f1a5de3b2eedd1d1c7b7005aaca6ed3802c
+  input: synchronized_video_and_audio
+  window:
+    seconds: 16
+    placement: complete_video_if_shorter_otherwise_centered
+  video_sampling:
+    frames_per_second: 2
+    maximum_frames: 32
+  prompt: |-
+
+    Summarize the above video in one word:
+  pooling: last_token
+  embedding_dimension: 3584
+  precision: bf16
+  normalization: l2
+
+f2llm:
+  command: mavic-f2llm-embed
+  model_id: codefuse-ai/F2LLM-v2-4B
+  revision: 2c0231f93661c5260cb71efb2097a3f7210b5996
+  input_fields:
+    - title
+    - description
+    - categories
+    - tags
+  instruction: |-
+    Instruct: Represent the video metadata by its primary one-word topic.
+    Query:
+  field_template: |-
+    Title: {title}
+    Description:
+    {description}
+    Categories: {categories}
+    Tags: {tags}
+  maximum_tokens: 4096
+  pooling: last_token
+  embedding_dimension: 2560
+  precision: bf16
+  normalization: l2

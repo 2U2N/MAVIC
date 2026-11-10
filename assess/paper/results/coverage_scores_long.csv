@@ -1,0 +1,400 @@
+feature,display_name,feature_type,is_variability,source_cohort,n_videos,representation,r2
+alpha_ratio,Ratio of Words With >0 Alphabetic Chars.,linguistic,False,linguistic,10331,f2llm,0.2264482561532046
+automated_readability_index,Automated Readability Index,linguistic,False,linguistic,10331,f2llm,0.037416992004828
+avg_inner_value_sd,SD of Brightness in the Inner Region,visual,True,full,18519,f2llm,0.2135262164532806
+avg_shots_per_min,Average Number of Shots per Minute,visual,False,full,18519,f2llm,0.2948545864352259
+black%_mean,Mean Percentage of Black Pixels,visual,False,full,18519,f2llm,0.2635256364422779
+black%_sd,SD of the Percentage of Black Pixels,visual,True,full,18519,f2llm,0.2412887380745664
+blue%_mean,Mean Percentage of Blue Pixels,visual,False,full,18519,f2llm,0.0835273007427733
+blue%_sd,SD of the Percentage of Blue Pixels,visual,True,full,18519,f2llm,0.1790278583641468
+blurriness_mean,Mean Laplacian Variance,visual,False,full,18519,f2llm,0.1374867732882947
+blurriness_sd,SD of Laplacian Variance,visual,True,full,18519,f2llm,0.1149073391866413
+brown%_mean,Mean Percentage of Brown Pixels,visual,False,full,18519,f2llm,0.0732167791308695
+clarity_mean,Mean Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,visual,False,full,18519,f2llm,0.2786529303405699
+clarity_sd,SD of the Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,visual,True,full,18519,f2llm,0.2070522649611416
+color_warmth_mean,Ratio of Warm Pixels (Hue Between 30 and 110) to Overall Pixels,visual,False,full,18519,f2llm,0.1398424826786359
+color_warmth_sd,SD of Warm Pixels Ratio to Overall Pixels,visual,True,full,18519,f2llm,0.2406291745575237
+colorfulness_mean,Mean Colorfulness,visual,False,full,18519,f2llm,0.1072966961970673
+colorfulness_sd,SD of Colorfulness,visual,True,full,18519,f2llm,0.236678393541579
+dependency_distance_mean,Mean of Dependency Distance on the Sentence Level,linguistic,False,linguistic,10331,f2llm,0.1649923186935374
+dependency_distance_std,SD of Dependency Distance on the Sentence Level,linguistic,True,linguistic,10331,f2llm,0.0772537715192667
+duplicate_ngram_chr_fraction_5,Fraction of Characters in Duplicate 5-Grams,linguistic,False,linguistic,10331,f2llm,0.4226751972405456
+duration_seconds,Duration in Seconds,visual,False,full,18519,f2llm,0.2531181039214256
+edge_points_mean,Mean Total Number of Edge Pixels,visual,False,full,18519,f2llm,0.1885113349703169
+edge_points_sd,SD of the Number of Edge Pixels,visual,True,full,18519,f2llm,0.243761997784133
+gray%_mean,Mean Percentage of Gray Pixels,visual,False,full,18519,f2llm,0.2258375115694136
+gray%_sd,SD of the Percentage of Gray Pixels,visual,True,full,18519,f2llm,0.2494493816568317
+gray_distribution_entropy_mean,Mean Gray Distribution Entropy,visual,False,full,18519,f2llm,0.2567612676771675
+gray_distribution_entropy_sd,SD of Gray Distribution Entropy,visual,True,full,18519,f2llm,0.167506280644723
+green%_mean,Mean Percentage of Green Pixels,visual,False,full,18519,f2llm,0.2409971984915632
+green%_sd,SD of the Percentage of Green Pixels,visual,True,full,18519,f2llm,0.2736054023666567
+hue_avg_wavelet_mean,Mean Wavelet Coefficient of the Hue Channel,visual,False,full,18519,f2llm,0.110490878076031
+hue_avg_wavelet_sd,SD of Wavelet Coefficient of the Hue Channel,visual,True,full,18519,f2llm,0.1913409646239431
+hue_contrast_mean,Mean Contrast for the Hue Channel (GLCM),visual,False,full,18519,f2llm,0.0723047325576973
+hue_contrast_sd,SD of Contrast for the Hue Channel (GLCM),visual,True,full,18519,f2llm,0.1230194590993993
+hue_correlation_mean,Mean Correlation for the Hue Channel (GLCM),visual,False,full,18519,f2llm,0.0623609118695765
+hue_correlation_sd,SD of Correlation for the Hue Channel (GLCM),visual,True,full,18519,f2llm,0.0720568979113743
+hue_energy_mean,Mean Energy for the Hue Channel (GLCM),visual,False,full,18519,f2llm,0.1238328101466591
+hue_energy_sd,SD of Energy for the Hue Channel (GLCM),visual,True,full,18519,f2llm,0.2158266726035952
+hue_homogeneity_mean,Mean Homogeneity for the Hue Channel (GLCM),visual,False,full,18519,f2llm,0.1086944057344929
+hue_homogeneity_sd,SD of Homogeneity for the Hue Channel (GLCM),visual,True,full,18519,f2llm,0.1605404533091322
+info_entropy_std,SD of Information Entropy,visual,True,full,18519,f2llm,0.2231344547546304
+lang_confidence,Confidence in Language Detection,linguistic,False,linguistic,10331,f2llm,0.2493395760744046
+largest_bb_faces_mean,Mean of the Largest Face Bounding Box to Frame Ratio,visual,False,full,18519,f2llm,0.1889233435940557
+largest_bb_faces_sd,SD of the Largest Face Bounding Box to Frame Ratio,visual,True,full,18519,f2llm,0.1296596725763233
+largest_bb_hands_mean,Mean of the Largest Hand Bounding Box to Frame Ratio,visual,False,full,18519,f2llm,0.2729066547334118
+largest_bb_hands_sd,SD of the Largest Hand Bounding Box to Frame Ratio,visual,True,full,18519,f2llm,0.3202317602611575
+largest_bb_people_mean,Mean of the Largest Person Bounding Box to Frame Ratio,visual,False,full,18519,f2llm,0.3586605851994324
+largest_bb_people_sd,SD of the Largest Person Bounding Box to Frame Ratio,visual,True,full,18519,f2llm,0.2414257020676355
+largest_confidence_faces_sd,SD of the Confidence of Detecting the Largest Face in the Image,visual,True,full,18519,f2llm,0.2256789671786141
+largest_confidence_people_mean,Mean Confidence of Detecting the Largest Person in the Image,visual,False,full,18519,f2llm,0.4021649755071274
+largest_confidence_people_sd,SD of the Confidence of Detecting the Largest Person in the Image,visual,True,full,18519,f2llm,0.2132730923405561
+mean_avg_saturation,Mean of the Average of the HSV-Saturation Channel,visual,False,full,18519,f2llm,0.2223044166881217
+mean_circular_var_hue,Mean Circular Variance of Hue,visual,False,full,18519,f2llm,0.0736748036245567
+mean_energy_ratio_0_630,Mean Energy Ratio Between 0 and 630Hz,audio,False,full,18519,f2llm,0.1766693796595723
+mean_energy_ratio_1720_4400,Mean Energy Ratio Between 1720 and 4400Hz,audio,False,full,18519,f2llm,0.1831924338685154
+mean_energy_ratio_630_1720,Mean Energy Ratio Between 630 and 1720Hz,audio,False,full,18519,f2llm,0.1812832284082915
+mean_freq_centroid,Mean Frequency Centroid,audio,False,full,18519,f2llm,0.1392732796179911
+mean_non_silence_ratio,Mean Non-Silence Ratio,audio,False,full,18519,f2llm,0.3459270505379891
+mean_sd_saturation,Mean of the SD of the HSV-Saturation Channel,visual,False,full,18519,f2llm,0.1016898473350158
+mean_sd_value,Mean of the SD of the HSV-Value Channel,visual,False,full,18519,f2llm,0.1108157111731312
+mean_volume_dynamic_range,Mean Volume Dynamic Range,audio,False,full,18519,f2llm,0.1839790567662712
+mean_word_length,Mean Word Length,linguistic,False,linguistic,10331,f2llm,0.3824378568428725
+motion_direction_mean,Mean Motion Direction (Optical Flow),visual,False,full,18519,f2llm,0.0367822645050592
+motion_direction_std,SD of Motion Direction (Optical Flow),visual,True,full,18519,f2llm,0.1170404901067764
+motion_magnitude_mean,Mean Motion Magnitude (Optical Flow),visual,False,full,18519,f2llm,0.2888327666743484
+motion_magnitude_std,SD of Motion Magnitude (Optical Flow),visual,True,full,18519,f2llm,0.1448133411165892
+n_unique_tokens,Number of Unique Tokens,linguistic,False,linguistic,10331,f2llm,0.3442010714488844
+nb_faces_mean,Mean Number of Faces Detected in the Image,visual,False,full,18519,f2llm,0.2360563467759787
+nb_faces_sd,SD of the Number of Faces Detected in the Image,visual,True,full,18519,f2llm,0.1951879021931775
+nb_hands_mean,Mean Number of Hands Detected,visual,False,full,18519,f2llm,0.2716431557218264
+nb_hands_sd,SD of the Number of Hands Detected,visual,True,full,18519,f2llm,0.3578880063162113
+nb_people_mean,Mean Number of People Detected in the Image,visual,False,full,18519,f2llm,0.3245126232985554
+nb_people_sd,SD of the Number of People Detected in the Image,visual,True,full,18519,f2llm,0.2860816571142377
+oov_ratio,Ratio of Out-of-Vocabulary Words,linguistic,False,linguistic,10331,f2llm,0.1432283023108099
+orange%_mean,Mean Percentage of Orange Pixels,visual,False,full,18519,f2llm,0.0974835951177939
+orange%_sd,SD of the Percentage of Orange Pixels,visual,True,full,18519,f2llm,0.1958833868767785
+pink%_mean,Mean Percentage of Pink Pixels,visual,False,full,18519,f2llm,0.0618399964744965
+pink%_sd,SD of the Percentage of Pink Pixels,visual,True,full,18519,f2llm,0.1070354373127372
+pos_prop_ADJ,Proportion of Adjectives,linguistic,False,linguistic,10331,f2llm,0.1335735372011691
+pos_prop_ADP,Proportion of Adpositions,linguistic,False,linguistic,10331,f2llm,0.2735125524422718
+pos_prop_ADV,Proportion of Adverbs,linguistic,False,linguistic,10331,f2llm,0.5498915509085083
+pos_prop_AUX,Proportion of Auxiliaries,linguistic,False,linguistic,10331,f2llm,0.1606393090450526
+pos_prop_CCONJ,Proportion of Coordinating Conjunctions,linguistic,False,linguistic,10331,f2llm,0.2439133492975636
+pos_prop_DET,Proportion of Determiners,linguistic,False,linguistic,10331,f2llm,0.3335826764216536
+pos_prop_INTJ,Proportion of Interjections,linguistic,False,linguistic,10331,f2llm,0.3099450175778369
+pos_prop_NOUN,Proportion of Nouns,linguistic,False,linguistic,10331,f2llm,0.2922098798199429
+pos_prop_NUM,Proportion of Numerals,linguistic,False,linguistic,10331,f2llm,0.1525422997044345
+pos_prop_PART,Proportion of Particles,linguistic,False,linguistic,10331,f2llm,0.3027184139663164
+pos_prop_PRON,Proportion of Pronouns,linguistic,False,linguistic,10331,f2llm,0.3279722839138949
+pos_prop_PROPN,Proportion of Proper Nouns,linguistic,False,linguistic,10331,f2llm,0.2110880497613529
+pos_prop_SCONJ,Proportion of Subordinating Conjunctions,linguistic,False,linguistic,10331,f2llm,0.1347636711742759
+pos_prop_SYM,Proportion of Symbols,linguistic,False,linguistic,10331,f2llm,0.0275656910469926
+pos_prop_VERB,Proportion of Verbs,linguistic,False,linguistic,10331,f2llm,0.1496995669047417
+pos_prop_X,Proportion of Words That Cannot Be Assigned to a Real Part-of-Speech Category,linguistic,False,linguistic,10331,f2llm,0.0934232892322963
+prop_adjacent_dependency_relation_mean,Mean Proportion of Adjacent Dependency Relations on the Sentence Level,linguistic,False,linguistic,10331,f2llm,0.2242421158300167
+prop_adjacent_dependency_relation_std,SD of the Proportion of Adjacent Dependency Relations on the Sentence Level,linguistic,True,linguistic,10331,f2llm,0.1460323780546319
+proportion_unique_tokens,Proportion of Unique Tokens,linguistic,False,linguistic,10331,f2llm,0.4107755149113224
+purple%_mean,Mean Percentage of Purple Pixels,visual,False,full,18519,f2llm,0.0902556584095313
+purple%_sd,SD of the Percentage of Purple Pixels,visual,True,full,18519,f2llm,0.1468881424027851
+red%_mean,Mean Percentage of Red Pixels,visual,False,full,18519,f2llm,0.1480922106735229
+red%_sd,SD of the Percentage of Red Pixels,visual,True,full,18519,f2llm,0.137870981996663
+rix,RIX Readability Measure,linguistic,False,linguistic,10331,f2llm,0.039053147449073
+saturation_contrast_mean,Mean Contrast for the Saturation Channel (GLCM),visual,False,full,18519,f2llm,0.1048950770825865
+saturation_contrast_sd,SD of Contrast for the Saturation Channel (GLCM),visual,True,full,18519,f2llm,0.0879524568132064
+saturation_correlation_mean,Mean Correlation for the Saturation Channel (GLCM),visual,False,full,18519,f2llm,0.0916644835434203
+saturation_correlation_sd,SD of Correlation for the Saturation Channel (GLCM),visual,True,full,18519,f2llm,0.0879227213444215
+saturation_energy_mean,Mean Energy for the Saturation Channel (GLCM),visual,False,full,18519,f2llm,0.2080006545685196
+saturation_energy_sd,SD of Energy for the Saturation Channel (GLCM),visual,True,full,18519,f2llm,0.1830208537802867
+saturation_homogeneity_mean,Mean Homogeneity for the Saturation Channel (GLCM),visual,False,full,18519,f2llm,0.1736012988210191
+saturation_homogeneity_sd,SD of Homogeneity for the Saturation Channel (GLCM),visual,True,full,18519,f2llm,0.2042390426224142
+sd_avg_saturation,SD of the Average of the HSV-Saturation Channel,visual,True,full,18519,f2llm,0.2126832803844816
+sd_circular_var_hue,SD of Circular Variance of Hue,visual,True,full,18519,f2llm,0.2397855491843311
+sd_sd_saturation,SD of the SD of the HSV-Saturation Channel,visual,True,full,18519,f2llm,0.1799338396246538
+sd_sd_value,SD of the SD of the HSV-Value Channel,visual,True,full,18519,f2llm,0.2163029411665512
+sentence_length_std,SD of Sentence Length,linguistic,True,linguistic,10331,f2llm,0.0247262399260894
+std_energy_ratio_0_630,SD of Energy Ratio Between 0 and 630Hz,audio,True,full,18519,f2llm,0.132501193467586
+std_energy_ratio_1720_4400,SD of Energy Ratio Between 1720 and 4400Hz,audio,True,full,18519,f2llm,0.1229593300156027
+std_energy_ratio_630_1720,SD of Energy Ratio Between 630 and 1720Hz,audio,True,full,18519,f2llm,0.1151963223801204
+std_freq_centroid,SD of Frequency Centroid,audio,True,full,18519,f2llm,0.1192901775629755
+std_non_silence_ratio,SD of Non-Silence Ratio,audio,True,full,18519,f2llm,0.1197387164904247
+std_vol_contour_4hz,SD of Volume Contour around 4Hz,audio,True,full,18519,f2llm,0.0785237225354044
+std_volume_dynamic_range,SD of Volume Dynamic Range,audio,True,full,18519,f2llm,0.1267789444367648
+token_length_median,Median Token Length,linguistic,False,linguistic,10331,f2llm,0.2751150729725592
+token_length_std,SD of Token Length,linguistic,True,linguistic,10331,f2llm,0.3496644701939998
+top_ngram_chr_fraction_2,Fraction of Characters in the Top 2-Grams,linguistic,False,linguistic,10331,f2llm,0.0896114423856969
+valence_mean,Average Predicted Valence from Pixel Values,visual,False,full,18519,f2llm,0.2394728968081834
+valence_sd,SD of Predicted Valence from Pixel Values,visual,True,full,18519,f2llm,0.2035717241486228
+value_correlation_mean,Mean Correlation for the Value Channel (GLCM),visual,False,full,18519,f2llm,0.1535579195284241
+value_correlation_sd,SD of Correlation for the Value Channel (GLCM),visual,True,full,18519,f2llm,0.1057640577670457
+white%_mean,Mean Percentage of White Pixels,visual,False,full,18519,f2llm,0.2098625474264046
+white%_sd,SD of the Percentage of White Pixels,visual,True,full,18519,f2llm,0.1797336585598278
+words_per_minute,Average Number of Words Spoken per Minute,linguistic,False,linguistic,10331,f2llm,0.307647369631583
+yellow%_mean,Mean Percentage of Yellow Pixels,visual,False,full,18519,f2llm,0.0642395642571688
+yellow%_sd,SD of the Percentage of Yellow Pixels,visual,True,full,18519,f2llm,0.157143203584252
+alpha_ratio,Ratio of Words With >0 Alphabetic Chars.,linguistic,False,linguistic,10331,lco,0.2860757186474559
+automated_readability_index,Automated Readability Index,linguistic,False,linguistic,10331,lco,0.0536144980977714
+avg_inner_value_sd,SD of Brightness in the Inner Region,visual,True,full,18519,lco,0.3501393888637953
+avg_shots_per_min,Average Number of Shots per Minute,visual,False,full,18519,lco,0.5426753774035972
+black%_mean,Mean Percentage of Black Pixels,visual,False,full,18519,lco,0.4628312684920197
+black%_sd,SD of the Percentage of Black Pixels,visual,True,full,18519,lco,0.3526467974880852
+blue%_mean,Mean Percentage of Blue Pixels,visual,False,full,18519,lco,0.2538477851887039
+blue%_sd,SD of the Percentage of Blue Pixels,visual,True,full,18519,lco,0.2980053855902083
+blurriness_mean,Mean Laplacian Variance,visual,False,full,18519,lco,0.3270127015271085
+blurriness_sd,SD of Laplacian Variance,visual,True,full,18519,lco,0.168708730976911
+brown%_mean,Mean Percentage of Brown Pixels,visual,False,full,18519,lco,0.1829850579827532
+clarity_mean,Mean Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,visual,False,full,18519,lco,0.4483513767074282
+clarity_sd,SD of the Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,visual,True,full,18519,lco,0.3112520617101002
+color_warmth_mean,Ratio of Warm Pixels (Hue Between 30 and 110) to Overall Pixels,visual,False,full,18519,lco,0.2575192013957728
+color_warmth_sd,SD of Warm Pixels Ratio to Overall Pixels,visual,True,full,18519,lco,0.3635277138690302
+colorfulness_mean,Mean Colorfulness,visual,False,full,18519,lco,0.234116834044427
+colorfulness_sd,SD of Colorfulness,visual,True,full,18519,lco,0.366209934526151
+dependency_distance_mean,Mean of Dependency Distance on the Sentence Level,linguistic,False,linguistic,10331,lco,0.2356817584246638
+dependency_distance_std,SD of Dependency Distance on the Sentence Level,linguistic,True,linguistic,10331,lco,0.0732253673221922
+duplicate_ngram_chr_fraction_5,Fraction of Characters in Duplicate 5-Grams,linguistic,False,linguistic,10331,lco,0.4627593692997491
+duration_seconds,Duration in Seconds,visual,False,full,18519,lco,0.1265262115640352
+edge_points_mean,Mean Total Number of Edge Pixels,visual,False,full,18519,lco,0.4005852410103259
+edge_points_sd,SD of the Number of Edge Pixels,visual,True,full,18519,lco,0.3439304672044229
+gray%_mean,Mean Percentage of Gray Pixels,visual,False,full,18519,lco,0.3896647459310415
+gray%_sd,SD of the Percentage of Gray Pixels,visual,True,full,18519,lco,0.3637224785483588
+gray_distribution_entropy_mean,Mean Gray Distribution Entropy,visual,False,full,18519,lco,0.5141885771232373
+gray_distribution_entropy_sd,SD of Gray Distribution Entropy,visual,True,full,18519,lco,0.2377911247746195
+green%_mean,Mean Percentage of Green Pixels,visual,False,full,18519,lco,0.4198227294725035
+green%_sd,SD of the Percentage of Green Pixels,visual,True,full,18519,lco,0.393396577915687
+hue_avg_wavelet_mean,Mean Wavelet Coefficient of the Hue Channel,visual,False,full,18519,lco,0.2764397139240113
+hue_avg_wavelet_sd,SD of Wavelet Coefficient of the Hue Channel,visual,True,full,18519,lco,0.313114631240005
+hue_contrast_mean,Mean Contrast for the Hue Channel (GLCM),visual,False,full,18519,lco,0.210483295192305
+hue_contrast_sd,SD of Contrast for the Hue Channel (GLCM),visual,True,full,18519,lco,0.2104824075954037
+hue_correlation_mean,Mean Correlation for the Hue Channel (GLCM),visual,False,full,18519,lco,0.1644502652121391
+hue_correlation_sd,SD of Correlation for the Hue Channel (GLCM),visual,True,full,18519,lco,0.1465309400218292
+hue_energy_mean,Mean Energy for the Hue Channel (GLCM),visual,False,full,18519,lco,0.2950977692265725
+hue_energy_sd,SD of Energy for the Hue Channel (GLCM),visual,True,full,18519,lco,0.3406321462821008
+hue_homogeneity_mean,Mean Homogeneity for the Hue Channel (GLCM),visual,False,full,18519,lco,0.2999396995605232
+hue_homogeneity_sd,SD of Homogeneity for the Hue Channel (GLCM),visual,True,full,18519,lco,0.2559382247090818
+info_entropy_std,SD of Information Entropy,visual,True,full,18519,lco,0.2970588825603059
+lang_confidence,Confidence in Language Detection,linguistic,False,linguistic,10331,lco,0.2651588705466167
+largest_bb_faces_mean,Mean of the Largest Face Bounding Box to Frame Ratio,visual,False,full,18519,lco,0.4158849880185421
+largest_bb_faces_sd,SD of the Largest Face Bounding Box to Frame Ratio,visual,True,full,18519,lco,0.2554660814176723
+largest_bb_hands_mean,Mean of the Largest Hand Bounding Box to Frame Ratio,visual,False,full,18519,lco,0.3913433734150555
+largest_bb_hands_sd,SD of the Largest Hand Bounding Box to Frame Ratio,visual,True,full,18519,lco,0.418229946853496
+largest_bb_people_mean,Mean of the Largest Person Bounding Box to Frame Ratio,visual,False,full,18519,lco,0.6192776125897452
+largest_bb_people_sd,SD of the Largest Person Bounding Box to Frame Ratio,visual,True,full,18519,lco,0.4350092793013388
+largest_confidence_faces_sd,SD of the Confidence of Detecting the Largest Face in the Image,visual,True,full,18519,lco,0.4089164169003418
+largest_confidence_people_mean,Mean Confidence of Detecting the Largest Person in the Image,visual,False,full,18519,lco,0.6978747722774099
+largest_confidence_people_sd,SD of the Confidence of Detecting the Largest Person in the Image,visual,True,full,18519,lco,0.4108374736612329
+mean_avg_saturation,Mean of the Average of the HSV-Saturation Channel,visual,False,full,18519,lco,0.416102667882973
+mean_circular_var_hue,Mean Circular Variance of Hue,visual,False,full,18519,lco,0.1814041517661275
+mean_energy_ratio_0_630,Mean Energy Ratio Between 0 and 630Hz,audio,False,full,18519,lco,0.3262896439591262
+mean_energy_ratio_1720_4400,Mean Energy Ratio Between 1720 and 4400Hz,audio,False,full,18519,lco,0.296823314748232
+mean_energy_ratio_630_1720,Mean Energy Ratio Between 630 and 1720Hz,audio,False,full,18519,lco,0.3080219960148147
+mean_freq_centroid,Mean Frequency Centroid,audio,False,full,18519,lco,0.270536236593788
+mean_non_silence_ratio,Mean Non-Silence Ratio,audio,False,full,18519,lco,0.5166306462342047
+mean_sd_saturation,Mean of the SD of the HSV-Saturation Channel,visual,False,full,18519,lco,0.2559700696630509
+mean_sd_value,Mean of the SD of the HSV-Value Channel,visual,False,full,18519,lco,0.255285874268809
+mean_volume_dynamic_range,Mean Volume Dynamic Range,audio,False,full,18519,lco,0.2860573209135783
+mean_word_length,Mean Word Length,linguistic,False,linguistic,10331,lco,0.5122148428202988
+motion_direction_mean,Mean Motion Direction (Optical Flow),visual,False,full,18519,lco,0.1267719619700874
+motion_direction_std,SD of Motion Direction (Optical Flow),visual,True,full,18519,lco,0.2241699560772765
+motion_magnitude_mean,Mean Motion Magnitude (Optical Flow),visual,False,full,18519,lco,0.4925330711038582
+motion_magnitude_std,SD of Motion Magnitude (Optical Flow),visual,True,full,18519,lco,0.1836230748310924
+n_unique_tokens,Number of Unique Tokens,linguistic,False,linguistic,10331,lco,0.2574138482519057
+nb_faces_mean,Mean Number of Faces Detected in the Image,visual,False,full,18519,lco,0.4398471345655832
+nb_faces_sd,SD of the Number of Faces Detected in the Image,visual,True,full,18519,lco,0.3264764503436798
+nb_hands_mean,Mean Number of Hands Detected,visual,False,full,18519,lco,0.471458919825909
+nb_hands_sd,SD of the Number of Hands Detected,visual,True,full,18519,lco,0.533509384085975
+nb_people_mean,Mean Number of People Detected in the Image,visual,False,full,18519,lco,0.5846046857861518
+nb_people_sd,SD of the Number of People Detected in the Image,visual,True,full,18519,lco,0.4993434352252193
+oov_ratio,Ratio of Out-of-Vocabulary Words,linguistic,False,linguistic,10331,lco,0.1743668880696862
+orange%_mean,Mean Percentage of Orange Pixels,visual,False,full,18519,lco,0.2334058296170362
+orange%_sd,SD of the Percentage of Orange Pixels,visual,True,full,18519,lco,0.3007489419518964
+pink%_mean,Mean Percentage of Pink Pixels,visual,False,full,18519,lco,0.2224469089277766
+pink%_sd,SD of the Percentage of Pink Pixels,visual,True,full,18519,lco,0.2183560410549787
+pos_prop_ADJ,Proportion of Adjectives,linguistic,False,linguistic,10331,lco,0.181512683352083
+pos_prop_ADP,Proportion of Adpositions,linguistic,False,linguistic,10331,lco,0.3630364399723674
+pos_prop_ADV,Proportion of Adverbs,linguistic,False,linguistic,10331,lco,0.5982767572154659
+pos_prop_AUX,Proportion of Auxiliaries,linguistic,False,linguistic,10331,lco,0.2431271901254276
+pos_prop_CCONJ,Proportion of Coordinating Conjunctions,linguistic,False,linguistic,10331,lco,0.318352345021636
+pos_prop_DET,Proportion of Determiners,linguistic,False,linguistic,10331,lco,0.4123362889115681
+pos_prop_INTJ,Proportion of Interjections,linguistic,False,linguistic,10331,lco,0.409922484082251
+pos_prop_NOUN,Proportion of Nouns,linguistic,False,linguistic,10331,lco,0.4079821155511363
+pos_prop_NUM,Proportion of Numerals,linguistic,False,linguistic,10331,lco,0.2358364779343207
+pos_prop_PART,Proportion of Particles,linguistic,False,linguistic,10331,lco,0.3309633601089271
+pos_prop_PRON,Proportion of Pronouns,linguistic,False,linguistic,10331,lco,0.4440720696657231
+pos_prop_PROPN,Proportion of Proper Nouns,linguistic,False,linguistic,10331,lco,0.2717719384619325
+pos_prop_SCONJ,Proportion of Subordinating Conjunctions,linguistic,False,linguistic,10331,lco,0.1929832607772375
+pos_prop_SYM,Proportion of Symbols,linguistic,False,linguistic,10331,lco,0.0415797383855666
+pos_prop_VERB,Proportion of Verbs,linguistic,False,linguistic,10331,lco,0.1867033540026961
+pos_prop_X,Proportion of Words That Cannot Be Assigned to a Real Part-of-Speech Category,linguistic,False,linguistic,10331,lco,0.0856239977595888
+prop_adjacent_dependency_relation_mean,Mean Proportion of Adjacent Dependency Relations on the Sentence Level,linguistic,False,linguistic,10331,lco,0.2351491756060001
+prop_adjacent_dependency_relation_std,SD of the Proportion of Adjacent Dependency Relations on the Sentence Level,linguistic,True,linguistic,10331,lco,0.1751613155953471
+proportion_unique_tokens,Proportion of Unique Tokens,linguistic,False,linguistic,10331,lco,0.403244121435161
+purple%_mean,Mean Percentage of Purple Pixels,visual,False,full,18519,lco,0.2627326838541657
+purple%_sd,SD of the Percentage of Purple Pixels,visual,True,full,18519,lco,0.2728425290984991
+red%_mean,Mean Percentage of Red Pixels,visual,False,full,18519,lco,0.3012988194648933
+red%_sd,SD of the Percentage of Red Pixels,visual,True,full,18519,lco,0.2598461241798018
+rix,RIX Readability Measure,linguistic,False,linguistic,10331,lco,0.0552216939264388
+saturation_contrast_mean,Mean Contrast for the Saturation Channel (GLCM),visual,False,full,18519,lco,0.2387285283734004
+saturation_contrast_sd,SD of Contrast for the Saturation Channel (GLCM),visual,True,full,18519,lco,0.1511990470031747
+saturation_correlation_mean,Mean Correlation for the Saturation Channel (GLCM),visual,False,full,18519,lco,0.1852400399419437
+saturation_correlation_sd,SD of Correlation for the Saturation Channel (GLCM),visual,True,full,18519,lco,0.1481162940971703
+saturation_energy_mean,Mean Energy for the Saturation Channel (GLCM),visual,False,full,18519,lco,0.4788647025767957
+saturation_energy_sd,SD of Energy for the Saturation Channel (GLCM),visual,True,full,18519,lco,0.2621142810187343
+saturation_homogeneity_mean,Mean Homogeneity for the Saturation Channel (GLCM),visual,False,full,18519,lco,0.4095111868900548
+saturation_homogeneity_sd,SD of Homogeneity for the Saturation Channel (GLCM),visual,True,full,18519,lco,0.32756383696914
+sd_avg_saturation,SD of the Average of the HSV-Saturation Channel,visual,True,full,18519,lco,0.3418564928506789
+sd_circular_var_hue,SD of Circular Variance of Hue,visual,True,full,18519,lco,0.3657469290669389
+sd_sd_saturation,SD of the SD of the HSV-Saturation Channel,visual,True,full,18519,lco,0.3040213315792105
+sd_sd_value,SD of the SD of the HSV-Value Channel,visual,True,full,18519,lco,0.359929698447584
+sentence_length_std,SD of Sentence Length,linguistic,True,linguistic,10331,lco,0.0322067053634251
+std_energy_ratio_0_630,SD of Energy Ratio Between 0 and 630Hz,audio,True,full,18519,lco,0.2117836498027587
+std_energy_ratio_1720_4400,SD of Energy Ratio Between 1720 and 4400Hz,audio,True,full,18519,lco,0.1648958674884686
+std_energy_ratio_630_1720,SD of Energy Ratio Between 630 and 1720Hz,audio,True,full,18519,lco,0.1605402198718414
+std_freq_centroid,SD of Frequency Centroid,audio,True,full,18519,lco,0.1817031852223093
+std_non_silence_ratio,SD of Non-Silence Ratio,audio,True,full,18519,lco,0.1751770219363166
+std_vol_contour_4hz,SD of Volume Contour around 4Hz,audio,True,full,18519,lco,0.1156377957218379
+std_volume_dynamic_range,SD of Volume Dynamic Range,audio,True,full,18519,lco,0.1580551806448886
+token_length_median,Median Token Length,linguistic,False,linguistic,10331,lco,0.3245796618024585
+token_length_std,SD of Token Length,linguistic,True,linguistic,10331,lco,0.4433985792567028
+top_ngram_chr_fraction_2,Fraction of Characters in the Top 2-Grams,linguistic,False,linguistic,10331,lco,0.1068752578739041
+valence_mean,Average Predicted Valence from Pixel Values,visual,False,full,18519,lco,0.4274237748595529
+valence_sd,SD of Predicted Valence from Pixel Values,visual,True,full,18519,lco,0.3250794074254538
+value_correlation_mean,Mean Correlation for the Value Channel (GLCM),visual,False,full,18519,lco,0.3245248822009789
+value_correlation_sd,SD of Correlation for the Value Channel (GLCM),visual,True,full,18519,lco,0.1706240970702027
+white%_mean,Mean Percentage of White Pixels,visual,False,full,18519,lco,0.3478002328109646
+white%_sd,SD of the Percentage of White Pixels,visual,True,full,18519,lco,0.2438623268649826
+words_per_minute,Average Number of Words Spoken per Minute,linguistic,False,linguistic,10331,lco,0.5054606726014669
+yellow%_mean,Mean Percentage of Yellow Pixels,visual,False,full,18519,lco,0.1539466320789031
+yellow%_sd,SD of the Percentage of Yellow Pixels,visual,True,full,18519,lco,0.2238456035215802
+alpha_ratio,Ratio of Words With >0 Alphabetic Chars.,linguistic,False,linguistic,10331,openclip,0.1810434756565577
+automated_readability_index,Automated Readability Index,linguistic,False,linguistic,10331,openclip,0.0402223966487496
+avg_inner_value_sd,SD of Brightness in the Inner Region,visual,True,full,18519,openclip,0.5026747949235196
+avg_shots_per_min,Average Number of Shots per Minute,visual,False,full,18519,openclip,0.4493643214725036
+black%_mean,Mean Percentage of Black Pixels,visual,False,full,18519,openclip,0.6698741250283535
+black%_sd,SD of the Percentage of Black Pixels,visual,True,full,18519,openclip,0.5049519142035162
+blue%_mean,Mean Percentage of Blue Pixels,visual,False,full,18519,openclip,0.4528995253590689
+blue%_sd,SD of the Percentage of Blue Pixels,visual,True,full,18519,openclip,0.4402907012205272
+blurriness_mean,Mean Laplacian Variance,visual,False,full,18519,openclip,0.5176893228385075
+blurriness_sd,SD of Laplacian Variance,visual,True,full,18519,openclip,0.3139143005789436
+brown%_mean,Mean Percentage of Brown Pixels,visual,False,full,18519,openclip,0.4058050352430487
+clarity_mean,Mean Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,visual,False,full,18519,openclip,0.7018077967870238
+clarity_sd,SD of the Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,visual,True,full,18519,openclip,0.4654167371703989
+color_warmth_mean,Ratio of Warm Pixels (Hue Between 30 and 110) to Overall Pixels,visual,False,full,18519,openclip,0.5165726108107231
+color_warmth_sd,SD of Warm Pixels Ratio to Overall Pixels,visual,True,full,18519,openclip,0.5058687596313882
+colorfulness_mean,Mean Colorfulness,visual,False,full,18519,openclip,0.5096773745750758
+colorfulness_sd,SD of Colorfulness,visual,True,full,18519,openclip,0.5131246308035838
+dependency_distance_mean,Mean of Dependency Distance on the Sentence Level,linguistic,False,linguistic,10331,openclip,0.1500353400350815
+dependency_distance_std,SD of Dependency Distance on the Sentence Level,linguistic,True,linguistic,10331,openclip,0.0523077980287921
+duplicate_ngram_chr_fraction_5,Fraction of Characters in Duplicate 5-Grams,linguistic,False,linguistic,10331,openclip,0.3177498143324196
+duration_seconds,Duration in Seconds,visual,False,full,18519,openclip,0.1031970796467576
+edge_points_mean,Mean Total Number of Edge Pixels,visual,False,full,18519,openclip,0.6955945042349506
+edge_points_sd,SD of the Number of Edge Pixels,visual,True,full,18519,openclip,0.5278521989945659
+gray%_mean,Mean Percentage of Gray Pixels,visual,False,full,18519,openclip,0.6166393664387728
+gray%_sd,SD of the Percentage of Gray Pixels,visual,True,full,18519,openclip,0.5314010574233079
+gray_distribution_entropy_mean,Mean Gray Distribution Entropy,visual,False,full,18519,openclip,0.7348298601253591
+gray_distribution_entropy_sd,SD of Gray Distribution Entropy,visual,True,full,18519,openclip,0.4158172405929065
+green%_mean,Mean Percentage of Green Pixels,visual,False,full,18519,openclip,0.5604582928237424
+green%_sd,SD of the Percentage of Green Pixels,visual,True,full,18519,openclip,0.5010952240404931
+hue_avg_wavelet_mean,Mean Wavelet Coefficient of the Hue Channel,visual,False,full,18519,openclip,0.5230157375352127
+hue_avg_wavelet_sd,SD of Wavelet Coefficient of the Hue Channel,visual,True,full,18519,openclip,0.4741451992154095
+hue_contrast_mean,Mean Contrast for the Hue Channel (GLCM),visual,False,full,18519,openclip,0.3627108492716451
+hue_contrast_sd,SD of Contrast for the Hue Channel (GLCM),visual,True,full,18519,openclip,0.3442611672147373
+hue_correlation_mean,Mean Correlation for the Hue Channel (GLCM),visual,False,full,18519,openclip,0.2399991589109429
+hue_correlation_sd,SD of Correlation for the Hue Channel (GLCM),visual,True,full,18519,openclip,0.2534941894173138
+hue_energy_mean,Mean Energy for the Hue Channel (GLCM),visual,False,full,18519,openclip,0.5045237352424048
+hue_energy_sd,SD of Energy for the Hue Channel (GLCM),visual,True,full,18519,openclip,0.5020915459975518
+hue_homogeneity_mean,Mean Homogeneity for the Hue Channel (GLCM),visual,False,full,18519,openclip,0.5042266003237952
+hue_homogeneity_sd,SD of Homogeneity for the Hue Channel (GLCM),visual,True,full,18519,openclip,0.4332647973044122
+info_entropy_std,SD of Information Entropy,visual,True,full,18519,openclip,0.395622083461482
+lang_confidence,Confidence in Language Detection,linguistic,False,linguistic,10331,openclip,0.190361083682748
+largest_bb_faces_mean,Mean of the Largest Face Bounding Box to Frame Ratio,visual,False,full,18519,openclip,0.5474597058154782
+largest_bb_faces_sd,SD of the Largest Face Bounding Box to Frame Ratio,visual,True,full,18519,openclip,0.3710528644029166
+largest_bb_hands_mean,Mean of the Largest Hand Bounding Box to Frame Ratio,visual,False,full,18519,openclip,0.448010444140089
+largest_bb_hands_sd,SD of the Largest Hand Bounding Box to Frame Ratio,visual,True,full,18519,openclip,0.4879329370008399
+largest_bb_people_mean,Mean of the Largest Person Bounding Box to Frame Ratio,visual,False,full,18519,openclip,0.761127927939576
+largest_bb_people_sd,SD of the Largest Person Bounding Box to Frame Ratio,visual,True,full,18519,openclip,0.5719537411593365
+largest_confidence_faces_sd,SD of the Confidence of Detecting the Largest Face in the Image,visual,True,full,18519,openclip,0.5136378201313556
+largest_confidence_people_mean,Mean Confidence of Detecting the Largest Person in the Image,visual,False,full,18519,openclip,0.7976970946010227
+largest_confidence_people_sd,SD of the Confidence of Detecting the Largest Person in the Image,visual,True,full,18519,openclip,0.5082795276909255
+mean_avg_saturation,Mean of the Average of the HSV-Saturation Channel,visual,False,full,18519,openclip,0.6698626726582702
+mean_circular_var_hue,Mean Circular Variance of Hue,visual,False,full,18519,openclip,0.3813510731696617
+mean_energy_ratio_0_630,Mean Energy Ratio Between 0 and 630Hz,audio,False,full,18519,openclip,0.1968550490600387
+mean_energy_ratio_1720_4400,Mean Energy Ratio Between 1720 and 4400Hz,audio,False,full,18519,openclip,0.1983895581290671
+mean_energy_ratio_630_1720,Mean Energy Ratio Between 630 and 1720Hz,audio,False,full,18519,openclip,0.2144641755447881
+mean_freq_centroid,Mean Frequency Centroid,audio,False,full,18519,openclip,0.1342422893875037
+mean_non_silence_ratio,Mean Non-Silence Ratio,audio,False,full,18519,openclip,0.3475872749700777
+mean_sd_saturation,Mean of the SD of the HSV-Saturation Channel,visual,False,full,18519,openclip,0.5130253848373947
+mean_sd_value,Mean of the SD of the HSV-Value Channel,visual,False,full,18519,openclip,0.4421637486080365
+mean_volume_dynamic_range,Mean Volume Dynamic Range,audio,False,full,18519,openclip,0.1784627189897306
+mean_word_length,Mean Word Length,linguistic,False,linguistic,10331,openclip,0.3672983821676097
+motion_direction_mean,Mean Motion Direction (Optical Flow),visual,False,full,18519,openclip,0.1678101227895742
+motion_direction_std,SD of Motion Direction (Optical Flow),visual,True,full,18519,openclip,0.2880186279101169
+motion_magnitude_mean,Mean Motion Magnitude (Optical Flow),visual,False,full,18519,openclip,0.5718562692566231
+motion_magnitude_std,SD of Motion Magnitude (Optical Flow),visual,True,full,18519,openclip,0.2547776451319491
+n_unique_tokens,Number of Unique Tokens,linguistic,False,linguistic,10331,openclip,0.298596284112304
+nb_faces_mean,Mean Number of Faces Detected in the Image,visual,False,full,18519,openclip,0.5664887470645316
+nb_faces_sd,SD of the Number of Faces Detected in the Image,visual,True,full,18519,openclip,0.419414035303743
+nb_hands_mean,Mean Number of Hands Detected,visual,False,full,18519,openclip,0.5912232171514622
+nb_hands_sd,SD of the Number of Hands Detected,visual,True,full,18519,openclip,0.6393064243732252
+nb_people_mean,Mean Number of People Detected in the Image,visual,False,full,18519,openclip,0.7178398232115377
+nb_people_sd,SD of the Number of People Detected in the Image,visual,True,full,18519,openclip,0.6030632291684204
+oov_ratio,Ratio of Out-of-Vocabulary Words,linguistic,False,linguistic,10331,openclip,0.0683515548325162
+orange%_mean,Mean Percentage of Orange Pixels,visual,False,full,18519,openclip,0.4802888629541939
+orange%_sd,SD of the Percentage of Orange Pixels,visual,True,full,18519,openclip,0.4652766335247473
+pink%_mean,Mean Percentage of Pink Pixels,visual,False,full,18519,openclip,0.3470625078983332
+pink%_sd,SD of the Percentage of Pink Pixels,visual,True,full,18519,openclip,0.3214290175242942
+pos_prop_ADJ,Proportion of Adjectives,linguistic,False,linguistic,10331,openclip,0.1040201143560141
+pos_prop_ADP,Proportion of Adpositions,linguistic,False,linguistic,10331,openclip,0.2540405611968531
+pos_prop_ADV,Proportion of Adverbs,linguistic,False,linguistic,10331,openclip,0.3584302642181003
+pos_prop_AUX,Proportion of Auxiliaries,linguistic,False,linguistic,10331,openclip,0.1497198999784345
+pos_prop_CCONJ,Proportion of Coordinating Conjunctions,linguistic,False,linguistic,10331,openclip,0.2084179661314316
+pos_prop_DET,Proportion of Determiners,linguistic,False,linguistic,10331,openclip,0.2762056063804619
+pos_prop_INTJ,Proportion of Interjections,linguistic,False,linguistic,10331,openclip,0.2628664627204204
+pos_prop_NOUN,Proportion of Nouns,linguistic,False,linguistic,10331,openclip,0.2860851676555982
+pos_prop_NUM,Proportion of Numerals,linguistic,False,linguistic,10331,openclip,0.1313526156934499
+pos_prop_PART,Proportion of Particles,linguistic,False,linguistic,10331,openclip,0.1734625752379806
+pos_prop_PRON,Proportion of Pronouns,linguistic,False,linguistic,10331,openclip,0.3328262719231859
+pos_prop_PROPN,Proportion of Proper Nouns,linguistic,False,linguistic,10331,openclip,0.2032852452995516
+pos_prop_SCONJ,Proportion of Subordinating Conjunctions,linguistic,False,linguistic,10331,openclip,0.1488064874770699
+pos_prop_SYM,Proportion of Symbols,linguistic,False,linguistic,10331,openclip,0.0274711246586852
+pos_prop_VERB,Proportion of Verbs,linguistic,False,linguistic,10331,openclip,0.1149546593247945
+pos_prop_X,Proportion of Words That Cannot Be Assigned to a Real Part-of-Speech Category,linguistic,False,linguistic,10331,openclip,0.0362829233087783
+prop_adjacent_dependency_relation_mean,Mean Proportion of Adjacent Dependency Relations on the Sentence Level,linguistic,False,linguistic,10331,openclip,0.1563228826440192
+prop_adjacent_dependency_relation_std,SD of the Proportion of Adjacent Dependency Relations on the Sentence Level,linguistic,True,linguistic,10331,openclip,0.1255351770237009
+proportion_unique_tokens,Proportion of Unique Tokens,linguistic,False,linguistic,10331,openclip,0.4351813040289096
+purple%_mean,Mean Percentage of Purple Pixels,visual,False,full,18519,openclip,0.4648551534606641
+purple%_sd,SD of the Percentage of Purple Pixels,visual,True,full,18519,openclip,0.4073336688422505
+red%_mean,Mean Percentage of Red Pixels,visual,False,full,18519,openclip,0.4839785762623623
+red%_sd,SD of the Percentage of Red Pixels,visual,True,full,18519,openclip,0.4123973668460248
+rix,RIX Readability Measure,linguistic,False,linguistic,10331,openclip,0.0343584746687637
+saturation_contrast_mean,Mean Contrast for the Saturation Channel (GLCM),visual,False,full,18519,openclip,0.4828182869018107
+saturation_contrast_sd,SD of Contrast for the Saturation Channel (GLCM),visual,True,full,18519,openclip,0.3452444779961293
+saturation_correlation_mean,Mean Correlation for the Saturation Channel (GLCM),visual,False,full,18519,openclip,0.3154431885555497
+saturation_correlation_sd,SD of Correlation for the Saturation Channel (GLCM),visual,True,full,18519,openclip,0.2663304487800677
+saturation_energy_mean,Mean Energy for the Saturation Channel (GLCM),visual,False,full,18519,openclip,0.7128193181760765
+saturation_energy_sd,SD of Energy for the Saturation Channel (GLCM),visual,True,full,18519,openclip,0.449227433836169
+saturation_homogeneity_mean,Mean Homogeneity for the Saturation Channel (GLCM),visual,False,full,18519,openclip,0.6591219311287053
+saturation_homogeneity_sd,SD of Homogeneity for the Saturation Channel (GLCM),visual,True,full,18519,openclip,0.5134469377771769
+sd_avg_saturation,SD of the Average of the HSV-Saturation Channel,visual,True,full,18519,openclip,0.5073489396181698
+sd_circular_var_hue,SD of Circular Variance of Hue,visual,True,full,18519,openclip,0.5049677367213494
+sd_sd_saturation,SD of the SD of the HSV-Saturation Channel,visual,True,full,18519,openclip,0.4817467068878492
+sd_sd_value,SD of the SD of the HSV-Value Channel,visual,True,full,18519,openclip,0.5355763885922732
+sentence_length_std,SD of Sentence Length,linguistic,True,linguistic,10331,openclip,0.0236876760782867
+std_energy_ratio_0_630,SD of Energy Ratio Between 0 and 630Hz,audio,True,full,18519,openclip,0.1345224355211061
+std_energy_ratio_1720_4400,SD of Energy Ratio Between 1720 and 4400Hz,audio,True,full,18519,openclip,0.1221135611654687
+std_energy_ratio_630_1720,SD of Energy Ratio Between 630 and 1720Hz,audio,True,full,18519,openclip,0.1012831005650884
+std_freq_centroid,SD of Frequency Centroid,audio,True,full,18519,openclip,0.1241392644093891
+std_non_silence_ratio,SD of Non-Silence Ratio,audio,True,full,18519,openclip,0.1290658978284955
+std_vol_contour_4hz,SD of Volume Contour around 4Hz,audio,True,full,18519,openclip,0.0770369537992804
+std_volume_dynamic_range,SD of Volume Dynamic Range,audio,True,full,18519,openclip,0.1179593784435709
+token_length_median,Median Token Length,linguistic,False,linguistic,10331,openclip,0.1919600394822993
+token_length_std,SD of Token Length,linguistic,True,linguistic,10331,openclip,0.3203808045860693
+top_ngram_chr_fraction_2,Fraction of Characters in the Top 2-Grams,linguistic,False,linguistic,10331,openclip,0.0734877804300815
+valence_mean,Average Predicted Valence from Pixel Values,visual,False,full,18519,openclip,0.6823831230012967
+valence_sd,SD of Predicted Valence from Pixel Values,visual,True,full,18519,openclip,0.4881226996085888
+value_correlation_mean,Mean Correlation for the Value Channel (GLCM),visual,False,full,18519,openclip,0.4541418756733835
+value_correlation_sd,SD of Correlation for the Value Channel (GLCM),visual,True,full,18519,openclip,0.2906647905411207
+white%_mean,Mean Percentage of White Pixels,visual,False,full,18519,openclip,0.6150958419515792
+white%_sd,SD of the Percentage of White Pixels,visual,True,full,18519,openclip,0.4052967310747241
+words_per_minute,Average Number of Words Spoken per Minute,linguistic,False,linguistic,10331,openclip,0.3170864226765026
+yellow%_mean,Mean Percentage of Yellow Pixels,visual,False,full,18519,openclip,0.2605285174371197
+yellow%_sd,SD of the Percentage of Yellow Pixels,visual,True,full,18519,openclip,0.3195054703979896

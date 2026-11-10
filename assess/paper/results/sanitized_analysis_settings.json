@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "description": "Analysis settings and manuscript-reported aggregate cohort totals. No participant, video, or demographic-cell data are included.",
+  "vocabulary": {
+    "version": "mavic-v1",
+    "total_probes": 133,
+    "visual_probes": 86,
+    "audio_probes": 13,
+    "linguistic_probes": 34
+  },
+  "video_cohorts": {
+    "sampled_videos": 20180,
+    "full_feature_rows_before_representation_intersection": 18523,
+    "full_probing_rows": 18519,
+    "linguistic_feature_rows_before_representation_intersection": 10335,
+    "linguistic_probing_rows": 10331
+  },
+  "probing": {
+    "outer_folds": 5,
+    "shuffle": true,
+    "random_seed": 42,
+    "alphas": [0.1, 1, 10, 100, 1000, 10000, 100000],
+    "score": "out_of_fold_r2"
+  },
+  "audience_analysis": {
+    "minimum_usable_videos_per_donor": 5,
+    "full_cohort_eligible_donors": 1008,
+    "linguistic_cohort_eligible_donors": 910,
+    "predictors": ["age", "gender", "education"],
+    "estimator": "ordinary_least_squares",
+    "score": "adjusted_r2"
+  }
+}

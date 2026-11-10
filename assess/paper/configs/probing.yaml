@@ -1,0 +1,36 @@
+schema_version: 1
+analysis: linear_representation_probing
+
+cohorts:
+  audio_visual:
+    source_cohort: full
+    representation_intersection_videos: 18519
+  linguistic:
+    source_cohort: linguistic
+    representation_intersection_videos: 10331
+    inherits_full_cohort_fold_assignment: true
+
+cross_validation:
+  outer_folds: 5
+  shuffle: true
+  random_seed: 42
+  identical_video_folds_across_representations: true
+
+estimator:
+  implementation: sklearn.linear_model.RidgeCV
+  scikit_learn_version: 1.9.0
+  standardize_embedding_dimensions_on_outer_training_fold: true
+  alpha_per_target: true
+  alphas:
+    - 0.1
+    - 1
+    - 10
+    - 100
+    - 1000
+    - 10000
+    - 100000
+
+score:
+  metric: r2
+  predictions: out_of_fold
+  preserve_negative_values: true

@@ -1,0 +1,59 @@
+selection_stage,n_rows,kept_feature,kept_feature_display,dropped_feature,dropped_feature_display,absolute_correlation
+canonical_full_dataset,18523,std_vol_contour_4hz,SD of Volume Contour around 4Hz,mean_vol_contour_4hz,Mean Volume Contour around 4Hz,0.8342614823208154
+canonical_full_dataset,18523,std_freq_centroid,SD of Frequency Centroid,std_freq_bandwidth,SD of Frequency Bandwidth,0.8128727945179558
+canonical_full_dataset,18523,std_freq_centroid,SD of Frequency Centroid,std_mean_zero_crossing_rate,SD of Zero Crossing Rate,0.835072363626551
+canonical_full_dataset,18523,std_volume_dynamic_range,SD of Volume Dynamic Range,std_volume_std_dev,SD of the SD of Volume,0.9005319149028892
+canonical_full_dataset,18523,valence_sd,SD of Predicted Valence from Pixel Values,dominance_sd,SD of Predicted Dominance from Pixel Values,0.9723120712737304
+canonical_full_dataset,18523,valence_sd,SD of Predicted Valence from Pixel Values,arousal_sd,SD of Predicted Arousal from Pixel Values,0.9599459116640059
+canonical_full_dataset,18523,valence_sd,SD of Predicted Valence from Pixel Values,sd_avg_value,SD of the Average of the HSV-Value Channel,0.8941863250687714
+canonical_full_dataset,18523,valence_sd,SD of Predicted Valence from Pixel Values,value_avg_wavelet_sd,SD of Wavelet Coefficient of the Value Channel,0.8937618495939583
+canonical_full_dataset,18523,clarity_sd,SD of the Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,sd_avg_value,SD of the Average of the HSV-Value Channel,0.8474436189320742
+canonical_full_dataset,18523,clarity_sd,SD of the Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,value_avg_wavelet_sd,SD of Wavelet Coefficient of the Value Channel,0.8468031981481335
+canonical_full_dataset,18523,gray_distribution_entropy_sd,SD of Gray Distribution Entropy,value_energy_sd,SD of Energy for the Value Channel (GLCM),0.9413167378542396
+canonical_full_dataset,18523,gray_distribution_entropy_sd,SD of Gray Distribution Entropy,spatial_entropy_std,SD of Spatial Entropy,0.8845627702835963
+canonical_full_dataset,18523,blurriness_sd,SD of Laplacian Variance,value_contrast_sd,SD of Contrast for the Value Channel (GLCM),0.917972753939098
+canonical_full_dataset,18523,blurriness_sd,SD of Laplacian Variance,value_low_dof_sd,SD of Brightness Difference Between Outer and Inner Regions (Depth of Field),0.9567782141854883
+canonical_full_dataset,18523,edge_points_sd,SD of the Number of Edge Pixels,value_homogeneity_sd,SD of Homogeneity for the Value Channel (GLCM),0.9245179517989085
+canonical_full_dataset,18523,orange%_sd,SD of the Percentage of Orange Pixels,brown%_sd,SD of the Percentage of Brown Pixels,0.8127378992604125
+canonical_full_dataset,18523,sd_avg_saturation,SD of the Average of the HSV-Saturation Channel,saturation_avg_wavelet_sd,SD of Wavelet Coefficient of the Saturation Channel,0.9997512156443911
+canonical_full_dataset,18523,sd_avg_saturation,SD of the Average of the HSV-Saturation Channel,avg_inner_saturation_sd,SD of Saturation in the Inner Region,0.8686400751134938
+canonical_full_dataset,18523,hue_contrast_sd,SD of Contrast for the Hue Channel (GLCM),hue_low_dof_sd,"SD of Hue Difference Between Outer and Inner Regions, Showing Variability in Color Tone Due to Depth of Field",0.9213989838843823
+canonical_full_dataset,18523,saturation_contrast_sd,SD of Contrast for the Saturation Channel (GLCM),saturation_low_dof_sd,SD of Saturation Difference Between Outer and Inner Regions (Depth of Field),0.9320668881074505
+canonical_full_dataset,18523,saturation_homogeneity_sd,SD of Homogeneity for the Saturation Channel (GLCM),value_homogeneity_sd,SD of Homogeneity for the Value Channel (GLCM),0.8010487120346539
+canonical_full_dataset,18523,avg_inner_value_sd,SD of Brightness in the Inner Region,sd_avg_value,SD of the Average of the HSV-Value Channel,0.8479819032129108
+canonical_full_dataset,18523,avg_inner_value_sd,SD of Brightness in the Inner Region,value_avg_wavelet_sd,SD of Wavelet Coefficient of the Value Channel,0.8468281036220053
+canonical_full_dataset,18523,largest_confidence_people_sd,SD of the Confidence of Detecting the Largest Person in the Image,avg_confidence_people_sd,SD of the Average Confidence of Detecting All People in the Image,0.9979154621971925
+canonical_full_dataset,18523,largest_bb_people_sd,SD of the Largest Person Bounding Box to Frame Ratio,sum_of_bb_people_sd,SD of the Ratio of the Total Area of All Person Bounding Boxes to Frame Area,0.9645436208524284
+canonical_full_dataset,18523,largest_confidence_faces_sd,SD of the Confidence of Detecting the Largest Face in the Image,avg_confidence_faces_sd,SD of the Average Confidence of Detecting All Faces in the Image,0.9983157957949877
+canonical_full_dataset,18523,largest_bb_faces_sd,SD of the Largest Face Bounding Box to Frame Ratio,sum_of_bb_faces_sd,SD of the Ratio of the Total Area of All Face Bounding Boxes to Frame Area,0.9876959361902702
+canonical_full_dataset,18523,largest_bb_hands_sd,SD of the Largest Hand Bounding Box to Frame Ratio,sum_of_bb_hands_sd,SD of the Ratio of the Total Area of All Hand Bounding Boxes to Frame Area,0.9807657455434456
+canonical_full_dataset,18523,mean_freq_centroid,Mean Frequency Centroid,mean_freq_bandwidth,Mean Frequency Bandwidth,0.8399342969694981
+canonical_full_dataset,18523,mean_freq_centroid,Mean Frequency Centroid,mean_mean_zero_crossing_rate,Mean Zero Crossing Rate,0.8617948591672346
+canonical_full_dataset,18523,mean_volume_dynamic_range,Mean Volume Dynamic Range,mean_volume_std_dev,Mean of the SD of Volume,0.9760464563333023
+canonical_full_dataset,18523,valence_mean,Average Predicted Valence from Pixel Values,dominance_mean,Average Predicted Dominance from Pixel Values,0.9589390940300162
+canonical_full_dataset,18523,valence_mean,Average Predicted Valence from Pixel Values,arousal_mean,Average Predicted Arousal from Pixel Values,0.9669617154035299
+canonical_full_dataset,18523,valence_mean,Average Predicted Valence from Pixel Values,mean_avg_value,Mean of the Average of the HSV-Value Channel,0.8644264728451104
+canonical_full_dataset,18523,valence_mean,Average Predicted Valence from Pixel Values,value_avg_wavelet_mean,Mean Wavelet Coefficient of the Value Channel,0.8633231519913799
+canonical_full_dataset,18523,clarity_mean,Mean Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,mean_avg_value,Mean of the Average of the HSV-Value Channel,0.9139533634078144
+canonical_full_dataset,18523,clarity_mean,Mean Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,value_avg_wavelet_mean,Mean Wavelet Coefficient of the Value Channel,0.9135756698321591
+canonical_full_dataset,18523,clarity_mean,Mean Proportion of Pixels With Brightness Greater Than 70% of Maximum Brightness,avg_inner_value_mean,Mean Brightness of the Inner Region,0.8198601475804613
+canonical_full_dataset,18523,gray_distribution_entropy_mean,Mean Gray Distribution Entropy,value_energy_mean,Mean Energy for the Value Channel (GLCM),0.9350254529135511
+canonical_full_dataset,18523,gray_distribution_entropy_mean,Mean Gray Distribution Entropy,spatial_entropy_mean,Mean Spatial Entropy,0.9874335035905903
+canonical_full_dataset,18523,blurriness_mean,Mean Laplacian Variance,blurriness_median,Median Laplacian Variance,0.973064141832131
+canonical_full_dataset,18523,blurriness_mean,Mean Laplacian Variance,value_contrast_mean,Mean Contrast for the Value Channel (GLCM),0.9350276057822011
+canonical_full_dataset,18523,blurriness_mean,Mean Laplacian Variance,value_low_dof_mean,Mean Brightness Difference Between Outer and Inner Regions (Depth of Field),0.9285646344402865
+canonical_full_dataset,18523,edge_points_mean,Mean Total Number of Edge Pixels,value_homogeneity_mean,Mean Homogeneity for the Value Channel (GLCM),0.8471356472353055
+canonical_full_dataset,18523,mean_avg_saturation,Mean of the Average of the HSV-Saturation Channel,saturation_avg_wavelet_mean,Mean Wavelet Coefficient of the Saturation Channel,0.9997752952944897
+canonical_full_dataset,18523,mean_avg_saturation,Mean of the Average of the HSV-Saturation Channel,avg_inner_saturation_mean,"Mean Saturation of the Inner Region,",0.8790610576899903
+canonical_full_dataset,18523,hue_contrast_mean,Mean Contrast for the Hue Channel (GLCM),hue_low_dof_mean,"Mean Hue Difference Between Outer and Inner Regions, Indicating Color Tone Shift Due to Depth of Field",0.9108778201532065
+canonical_full_dataset,18523,saturation_contrast_mean,Mean Contrast for the Saturation Channel (GLCM),saturation_low_dof_mean,Mean Saturation Difference Between Outer and Inner Regions (Depth of Field),0.9097179507866933
+canonical_full_dataset,18523,largest_confidence_people_mean,Mean Confidence of Detecting the Largest Person in the Image,avg_confidence_people_mean,Mean Average Confidence of Detecting All People in the Image,0.9982843962097115
+canonical_full_dataset,18523,largest_confidence_people_mean,Mean Confidence of Detecting the Largest Person in the Image,sum_of_bb_people_mean,Mean Ratio of the Total Area of All Person Bounding Boxes to Frame Area,0.8347210905995819
+canonical_full_dataset,18523,largest_confidence_people_mean,Mean Confidence of Detecting the Largest Person in the Image,largest_confidence_faces_mean,Mean Confidence of Detecting the Largest Face in the Image,0.8624090319774466
+canonical_full_dataset,18523,largest_confidence_people_mean,Mean Confidence of Detecting the Largest Person in the Image,avg_confidence_faces_mean,Mean Average Confidence of Detecting All Faces in the Image,0.8611150934108533
+canonical_full_dataset,18523,largest_bb_people_mean,Mean of the Largest Person Bounding Box to Frame Ratio,avg_confidence_people_mean,Mean Average Confidence of Detecting All People in the Image,0.8016970207975369
+canonical_full_dataset,18523,largest_bb_people_mean,Mean of the Largest Person Bounding Box to Frame Ratio,sum_of_bb_people_mean,Mean Ratio of the Total Area of All Person Bounding Boxes to Frame Area,0.9584326371257355
+canonical_full_dataset,18523,largest_bb_faces_mean,Mean of the Largest Face Bounding Box to Frame Ratio,sum_of_bb_faces_mean,Mean Ratio of the Total Area of All Face Bounding Boxes to Frame Area,0.9835381880167829
+canonical_full_dataset,18523,largest_bb_hands_mean,Mean of the Largest Hand Bounding Box to Frame Ratio,sum_of_bb_hands_sd,SD of the Ratio of the Total Area of All Hand Bounding Boxes to Frame Area,0.8294615606603665
+canonical_full_dataset,18523,largest_bb_hands_mean,Mean of the Largest Hand Bounding Box to Frame Ratio,sum_of_bb_hands_mean,Mean Ratio of the Total Area of All Hand Bounding Boxes to Frame Area,0.9838226604856768
+canonical_full_dataset,18523,motion_magnitude_mean,Mean Motion Magnitude (Optical Flow),info_entropy_mean,Mean Information Entropy,0.9122589714799707
